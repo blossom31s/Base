@@ -1,0 +1,88 @@
+// System Theme : Monthly Review
+
+* Design Patterns // various languages, such as c++
+- Creational
+	Abstract Factory
+	Builder
+	Factory Method
+	Prototype
+	Singleton
+- Structural
+	Adapter
+	Bridge
+	Composite
+	Decorator
+	Facade
+	Flyweight
+	Proxy
+- Behavioral
+	Chain of Responsibility
+	Command
+	Interpreter
+	Iterator
+	Mediator
+	Memento
+	Observer
+	State
+	Strategy
+	Template Method
+	Visitor
+
+* Algorithms
+- ?
+
+
+
+--------------------------------------------------< Design Patterns >--------------------------------------------------
+
+* Abstract Factory // sample code..
+
+* Builder
+
+* Factory Method
+
+* Prototype
+
+* Singleton
+
+* Adapter
+
+* Bridge
+
+* Composite
+
+* Decorator
+
+* Facade
+
+* Flyweight
+
+* Proxy
+
+* Chain of Responsibility
+
+* Command
+
+* Interpreter
+
+* Iterator
+
+* Mediator
+
+* Memento
+
+* Observer
+
+* State
+
+* Strategy
+
+* Template Method
+
+* Visitor
+
+
+
+--------------------------------------------------< Algorithms >--------------------------------------------------
+
+* ?
