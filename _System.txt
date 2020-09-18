@@ -25,17 +25,6 @@
 	Strategy
 	Template Method
 	Visitor
-- Architectural // 10 Common Software Architectural Patterns in a nutshell
-	Layered pattern
-	Client-server pattern
-	Master-slave pattern
-	Pipe-filter pattern
-	Broker pattern
-	Peer-to-peer pattern
-	Event-bus pattern
-	Model-view-controller pattern
-	Blackboard- pattern
-	Interpreter pattern
 
 * Career_WebSite.txt
 - Web Information Management System : Springless / SpringMVC / SpringBoot
