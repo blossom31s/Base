@@ -1,4 +1,23 @@
-* System Patterns(Monthly Review) // various languages, such as c++
+* Certificate
+- Korean
+- English : TOEIC ?, TS ?
+- Chinese
+
+* TOEIC
+- Voca
+- LC
+	LC는 양치기
+	700 이하는 빨갱이
+	700 초과는 천제1(중~중상) ~ 천제3(상~최상)
+	1.5배속 -> 실제시험이 슬로우모션으로 들림
+- RC
+	RC는 단어만 다 외워도 350 이상은 나옴
+
+* IT Stack
+- Web Information Management System : Springless / SpringMVC / SpringBoot
+- ? : Naver / Kakao / Google / Apple / Facebook / Amazon
+
+* IT Patterns // various languages, such as c++
 - Creational
 	Abstract Factory
 	Builder
@@ -25,11 +44,6 @@
 	Strategy
 	Template Method
 	Visitor
-
-* Career_WebSite.txt
-- Web Information Management System : Springless / SpringMVC / SpringBoot
-
-* ?.txt
 
 
 
