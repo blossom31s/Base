@@ -1,4 +1,4 @@
-* IT Patterns // various languages, such as c++
+* System Design Patterns // various languages, such as c++
 - Creational
 	Abstract Factory
 	Builder
@@ -25,6 +25,8 @@
 	Strategy
 	Template Method
 	Visitor
+
+* Web Full Stack
 
 * Tech Stack
 - Web Information Management System : Springless / SpringMVC / SpringBoot
