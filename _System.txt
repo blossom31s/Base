@@ -26,9 +26,7 @@
 	Template Method
 	Visitor
 
-* Web Full Stack
-
-* Tech Stack
+※ Tech Stack
 - Web Information Management System : Springless / SpringMVC / SpringBoot
 - ? : Naver / Kakao / Google / Apple / Facebook / Amazon
 
