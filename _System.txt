@@ -32,14 +32,98 @@
 
 
 
+--------------------------------------------------< ? >--------------------------------------------------
+
+// sample code..
+
+
+
 --------------------------------------------------< Abstract Factory >--------------------------------------------------
 
 // sample code..
 
 
 
---------------------------------------------------< ? >--------------------------------------------------
+--------------------------------------------------< Strategy >--------------------------------------------------
 
-// sample code..
+// Inheritance
+class Duck()
+	class MallardDuck()
+	class RedheadDuck()
+	class RubberDuck()
+	class DecoyDuck()
+interface FlyBehavior()
+	class FlyWithWings()
+	class FlyNoWay()
+interface QuackBehavior()
+	class Quack()
+	class Squeak()
+	class MuteQuack()
+
+// Implementation
+Duck() {
+	FlyBehavior flyBehavior
+	QuackBehavior quackBehavior
+
+	swim()
+	display()
+	performQuack()
+	performFly()
+	setFlyBehavior()
+	setQuackBehavior()
+
+	...
+}
+MallardDuck() {
+	display() {
+		// 물오리의 모양 표시
+	}
+}
+RedheadDuck() {
+	display() {
+		// 붉은머리 오리 모양 표시
+	}
+}
+RubberDuck() {
+	display() {
+		// 고무 오리 모양 표시
+	}
+}
+DecoyDuck() {
+	display() {
+		// 가짜 오리 모양 표시
+	}
+}
+FlyBehavior() {
+	fly()
+}
+FlyWithWings() {
+	fly() {
+		// 오리가 나는 것을 구현
+	}
+}
+FlyNoWay() {
+	fly() {
+		// 날 수 없음
+	}
+}
+QuackBehavior() {
+	quack()
+}
+Quack() {
+	quack() {
+		// 꽥꽥 소리 내는 것을 구현
+	}
+}
+Squeak() {
+	quack() {
+		// 고무 오리가 내는 삑삑 소리를 구현
+	}
+}
+MuteQuack() {
+	quack() {
+		// 소리 내지 못함
+	}
+}
 
 
