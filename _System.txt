@@ -319,11 +319,11 @@ Define a family of algorithms, encapsulate each one, and make them interchangeab
 Strategy lets the algorithm vary independently from clients that use it.
 
 // Structure
-Context : ContextInterface()
-Strategy : AlgorithmInterface()
-	ConcreteStrategyA : AlgorithmInterface()
-	ConcreteStrategyB : AlgorithmInterface()
-	ConcreteStrategyC : AlgorithmInterface()
+interface Context : ContextInterface()
+interface Strategy : AlgorithmInterface()
+	interface ConcreteStrategyA : AlgorithmInterface()
+	interface ConcreteStrategyB : AlgorithmInterface()
+	interface ConcreteStrategyC : AlgorithmInterface()
 
 // Implementation
 
