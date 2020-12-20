@@ -1,4 +1,4 @@
-* System Design Patterns // various languages, such as c++
+* Base(Monthly Review) : System Design Patterns // various languages, such as c++
 - Creational
 	Abstract Factory
 	Builder
@@ -26,104 +26,330 @@
 	Template Method
 	Visitor
 
-※ Tech Stack
-- Web Information Management System : Springless / SpringMVC / SpringBoot
-- ? : Naver / Kakao / Google / Apple / Facebook / Amazon
+* Trend(Big Tech)
+	Kakao
+	Naver
+	Google
+	Apple
+	Facebook
+	Amazon
+
+* Tech Stack
+- Algorithms
+- Web(Full Stack)
+	Web Information Management System : Springless / SpringMVC / SpringBoot
+- App
+- AI
 
 
 
 --------------------------------------------------< ? >--------------------------------------------------
 
-// sample code..
+// Intent
+
+// Structure
+
+// Implementation
+
+
+
+--------------------------------------------------< ?(Java) >--------------------------------------------------
+
+// Code...
 
 
 
 --------------------------------------------------< Abstract Factory >--------------------------------------------------
 
-// sample code..
+// Intent
+Provide an interface for creating families of related or dependent objects
+without specifying their concrete classes.
+
+// Structure
+
+// Implementation
+
+
+
+--------------------------------------------------< Builder >--------------------------------------------------
+
+// Intent
+Separate the construction of a complex object from its representation
+so that the same construction process can create different representations.
+
+// Structure
+
+// Implementation
+
+
+
+--------------------------------------------------< Factory Method >--------------------------------------------------
+
+// Intent
+Define an interface for creating an object, but let subclasses decide which class to instantiate.
+Factory Method lets a class defer instantiation to subclasses.
+
+// Structure
+
+// Implementation
+
+
+
+--------------------------------------------------< Prototype >--------------------------------------------------
+
+// Intent
+Specify the kinds of objects to create using a prototypical instance,
+and create new objects by copying this prototype.
+
+// Structure
+
+// Implementation
+
+
+
+--------------------------------------------------< Singleton >--------------------------------------------------
+
+// Intent
+Ensure a class only has one instance, and provide a global point of access to it.
+
+// Structure
+
+// Implementation
+
+
+
+--------------------------------------------------< Adapter >--------------------------------------------------
+
+// Intent
+Convert the interface of a class into another interface clients expect.
+Adapter lets classes work together that couldn't otherwise because of incompatible interfaces.
+
+// Structure
+
+// Implementation
+
+
+
+--------------------------------------------------< Bridge >--------------------------------------------------
+
+// Intent
+Decouple an abstraction from its implementation so that the two can vary independently.
+
+// Structure
+
+// Implementation
+
+
+
+--------------------------------------------------< Composite >--------------------------------------------------
+
+// Intent
+Compose objects into tree structures to represent part-whole hierarchies.
+Composite lets clients treat individual objects and compositions of objects uniformly.
+
+// Structure
+
+// Implementation
+
+
+
+--------------------------------------------------< Decorator >--------------------------------------------------
+
+// Intent
+Attach additional responsibilities to an object dynamically.
+Decorators provide a flexible alternative to subclassing for extending functionality.
+
+// Structure
+
+// Implementation
+
+
+
+--------------------------------------------------< Facade >--------------------------------------------------
+
+// Intent
+Provide a unified initerface to a set of interfaces in a subsystem.
+Facade defines a higher-level interface that makes the subsystem easier to use.
+
+// Structure
+
+// Implementation
+
+
+
+--------------------------------------------------< Flyweight >--------------------------------------------------
+
+// Intent
+Use sharing to support large numbers of fine-grained objects efficiently.
+
+// Structure
+
+// Implementation
+
+
+
+--------------------------------------------------< Proxy >--------------------------------------------------
+
+// Intent
+Provide a surrogate or placeholder for another object to control access to it.
+
+// Structure
+
+// Implementation
+
+
+
+--------------------------------------------------< Chain of Responsibility >--------------------------------------------------
+
+// Intent
+Avoid coupling the sender of a request to its receiver
+by giving more than one object a chance to handle the request.
+Chain the receiving objects and pass the request along the chain until an object handles it.
+
+// Structure
+
+// Implementation
+
+
+
+--------------------------------------------------< Command >--------------------------------------------------
+
+// Intent
+Encapsulate a request as an object,
+thereby letting you parameterize clients with different requests, queue or log requests,
+and support undoable operations.
+
+// Structure
+
+// Implementation
+
+
+
+--------------------------------------------------< Interpreter >--------------------------------------------------
+
+// Intent
+Given a language, define a representation for its grammar along with an interpreter
+that uses the representation to interpret sentences in the language.
+
+// Structure
+
+// Implementation
+
+
+
+--------------------------------------------------< Iterator >--------------------------------------------------
+
+// Intent
+Provide a way to access the elements of an aggregate object sequentially
+without exposing its underlying representation.
+
+// Structure
+
+// Implementation
+
+
+
+--------------------------------------------------< Mediator >--------------------------------------------------
+
+// Intent
+Define an object that encapsulates how a set of objects interact.
+Mediator promotes loose coupling by keeping objects from referring to each other explicitly,
+and it lets you vary their interaction independently.
+
+// Structure
+
+// Implementation
+
+
+
+--------------------------------------------------< Memento >--------------------------------------------------
+
+// Intent
+Without violating encapsulation, capture and externalize an object's internal state
+so that the object can be restored to this state later.
+
+// Structure
+
+// Implementation
+
+
+
+--------------------------------------------------< Observer >--------------------------------------------------
+
+// Intent
+Define a one-to-many dependency between objects
+so that when one object changes state, all its dependents are notified and updated automatically.
+
+// Structure
+interface Subject : attach(Observer), detach(Observer), notify()
+class ConcreteSubject : getState(), setState(), subjectState
+interface Observer : update()
+class ConcreteObserver : update(), observerState
+
+// Implementation
+interface WeatherSubject : attachObserver(String observer), detachObserver(String observer), notifyObserver()
+class WeatherStation1 : getTemperature(), setTemperature(int temperature), getHumidity(), setHumidity(int humidity), getPressure(), setPressure(int pressure), observerList1, weatherData1
+class WeatherStation2 : getHeatIndex(), setHeatIndex(int heatIndex), observerList2, weatherData2
+interface WeatherObserver : update(HashMap<String, Integer> map)
+class DisplayOfCurrentConditions : display(), requestedData, weatherDataCurrentConditions
+class DisplayOfStatistics : display(), requestedData, weatherDataStatistics
+class DisplayOfForecast : display(), requestedData, weatherDataForecast
+interface OperationManager : operationType
+class PushType : setGap(int gap), gap
+class PullType : hasChanged(), changedData
+
+
+
+--------------------------------------------------< State >--------------------------------------------------
+
+// Intent
+Allow an object to alter its behavior when its internal state changes.
+The object will appear to change its class.
+
+// Structure
+
+// Implementation
 
 
 
 --------------------------------------------------< Strategy >--------------------------------------------------
 
-// Inheritance
-class Duck()
-	class MallardDuck()
-	class RedheadDuck()
-	class RubberDuck()
-	class DecoyDuck()
-interface FlyBehavior()
-	class FlyWithWings()
-	class FlyNoWay()
-interface QuackBehavior()
-	class Quack()
-	class Squeak()
-	class MuteQuack()
+// Intent
+Define a family of algorithms, encapsulate each one, and make them interchangeable.
+Strategy lets the algorithm vary independently from clients that use it.
+
+// Structure
+Context : ContextInterface()
+Strategy : AlgorithmInterface()
+	ConcreteStrategyA : AlgorithmInterface()
+	ConcreteStrategyB : AlgorithmInterface()
+	ConcreteStrategyC : AlgorithmInterface()
 
 // Implementation
-Duck() {
-	FlyBehavior flyBehavior
-	QuackBehavior quackBehavior
 
-	swim()
-	display()
-	performQuack()
-	performFly()
-	setFlyBehavior()
-	setQuackBehavior()
 
-	...
-}
-MallardDuck() {
-	display() {
-		// 물오리의 모양 표시
-	}
-}
-RedheadDuck() {
-	display() {
-		// 붉은머리 오리 모양 표시
-	}
-}
-RubberDuck() {
-	display() {
-		// 고무 오리 모양 표시
-	}
-}
-DecoyDuck() {
-	display() {
-		// 가짜 오리 모양 표시
-	}
-}
-FlyBehavior() {
-	fly()
-}
-FlyWithWings() {
-	fly() {
-		// 오리가 나는 것을 구현
-	}
-}
-FlyNoWay() {
-	fly() {
-		// 날 수 없음
-	}
-}
-QuackBehavior() {
-	quack()
-}
-Quack() {
-	quack() {
-		// 꽥꽥 소리 내는 것을 구현
-	}
-}
-Squeak() {
-	quack() {
-		// 고무 오리가 내는 삑삑 소리를 구현
-	}
-}
-MuteQuack() {
-	quack() {
-		// 소리 내지 못함
-	}
-}
+
+--------------------------------------------------< Template Method >--------------------------------------------------
+
+// Intent
+Define the skeleton of an algorithm in an operation, deferring some steps to subclasses.
+Template Method lets subclasses redefine certain steps of an algorithm
+without changing the algorithm's structure.
+
+// Structure
+
+// Implementation
+
+
+
+--------------------------------------------------< Visitor >--------------------------------------------------
+
+// Intent
+Represent an operation to be performed on the elements of an object structure.
+Visitor lets you define a new operation without changing the classes of the elements on which it operates.
+
+// Structure
+
+// Implementation
 
 
