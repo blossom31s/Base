@@ -1,4 +1,4 @@
-* Base(Monthly Review) : System Design Patterns // various languages, such as c++
+* Base(Monthly Review) : System Design Patterns // various languages, such as c++, java, python
 - Creational
 	Abstract Factory
 	Builder
@@ -66,6 +66,15 @@ Provide an interface for creating families of related or dependent objects
 without specifying their concrete classes.
 
 // Structure
+AbstractFactory : CreateProductA(), CreateProductB()
+	ConcreteFactory1 : CreateProductA(), CreateProductB()
+	ConcreteFactory2 : CreateProductA(), CreateProductB()
+AbstractProductA
+	ProductA1
+	ProductA2
+AbstractProductB
+	ProductB1
+	ProductB2
 
 // Implementation
 
@@ -160,6 +169,11 @@ Attach additional responsibilities to an object dynamically.
 Decorators provide a flexible alternative to subclassing for extending functionality.
 
 // Structure
+Component : Operation()
+	ConcreteComponent : Operation()
+	Decorator : Operation()
+		ConcreteDecoratorA : Operation(), addedState
+		ConcreteDecoratorB : Operation(), addedBehavior()
 
 // Implementation
 
@@ -281,10 +295,10 @@ Define a one-to-many dependency between objects
 so that when one object changes state, all its dependents are notified and updated automatically.
 
 // Structure
-interface Subject : attach(Observer), detach(Observer), notify()
-class ConcreteSubject : getState(), setState(), subjectState
-interface Observer : update()
-class ConcreteObserver : update(), observerState
+Subject : attach(Observer), detach(Observer), notify()
+	ConcreteSubject : getState(), setState(), subjectState
+Observer : update()
+	ConcreteObserver : update(), observerState
 
 // Implementation
 interface WeatherSubject : attachObserver(String observer), detachObserver(String observer), notifyObserver()
@@ -319,11 +333,11 @@ Define a family of algorithms, encapsulate each one, and make them interchangeab
 Strategy lets the algorithm vary independently from clients that use it.
 
 // Structure
-interface Context : ContextInterface()
-interface Strategy : AlgorithmInterface()
-	interface ConcreteStrategyA : AlgorithmInterface()
-	interface ConcreteStrategyB : AlgorithmInterface()
-	interface ConcreteStrategyC : AlgorithmInterface()
+Context : ContextInterface()
+Strategy : AlgorithmInterface()
+	ConcreteStrategyA : AlgorithmInterface()
+	ConcreteStrategyB : AlgorithmInterface()
+	ConcreteStrategyC : AlgorithmInterface()
 
 // Implementation
 
