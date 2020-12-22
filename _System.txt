@@ -26,20 +26,19 @@
 	Template Method
 	Visitor
 
-* Trend(Big Tech)
-	Kakao
-	Naver
-	Google
-	Apple
-	Facebook
-	Amazon
-
-* Tech Stack
+* Career
+- Concept
+	Sync vs Async / Block vs Non-Block
 - Algorithms
 - Web(Full Stack)
 	Web Information Management System : Springless / SpringMVC / SpringBoot
 - App
 - AI
+
+* Community
+- Web
+- AI
+	http://aifactory.space
 
 
 
@@ -75,8 +74,49 @@ AbstractProductA
 AbstractProductB
 	ProductB1
 	ProductB2
+Client
 
 // Implementation
+interface PizzaIngredientFactory : createDough(), createSauce(), createCheese(),
+								   createVeggie(), createPepperoni(), createClam()
+	class NYPizzaIngredientFactory
+	class ChicagoPizzaIngredientFactory
+	class CaliforniaPizzaIngredientFactory
+interface Ingredient
+	class Dough
+		class ThinCrustDough // NY
+		class ThickCrustDough // Chicago
+		class VeryThinCrustDough // California
+	class Sauce
+		class MarinaraSauce // NY
+		class PlumTomatoSauce // Chicago
+		class BruschettaSauce // California
+	class Cheese
+		class ReggianoCheese // NY
+		class MozzarellaCheese // Chicago
+		class GoatCheese // California
+	class Veggie
+		class A // NY
+		class B // Chicago
+		class C // California
+	class Pepperoni
+		class SlicedPepperoni // NY
+		class B // Chicago
+		class C // California
+	class Clam
+		class FreshClam // NY
+		class FrozenClam // Chicago
+		class Camari // California
+interface PizzaStore : createPizza()
+	class NYPizzaStore
+	class ChicagoPizzaStore
+	class CaliforniaPizzaStore
+interface Pizza : prepare(), bake(), cut(), box(), getName(), setName(),
+				  name, dough, sauce, veggie, cheese, pepperoni, clam
+	class CheesePizza
+	class VeggiePizza
+	class PepperoniPizza
+	class ClamPizza
 
 
 
@@ -99,8 +139,26 @@ Define an interface for creating an object, but let subclasses decide which clas
 Factory Method lets a class defer instantiation to subclasses.
 
 // Structure
+Creator : FactoryMethod(), AnOperation()
+	ConcreteCreator
+Product
+	ConcreteProduct
 
 // Implementation
+interface PizzaStore : createPizza(), orderPizza()
+	class NYPizzaStore
+	class ChicagoPizzaStore
+	class CaliforniaPizzaStore
+interface Pizza : prepare(), bake(), cut(), box(), getName(), setName()
+	class NYStyleCheesePizza
+	class ChicagoStyleCheesePizza
+	class CaliforniaStyleCheesePizza
+	class NYStylePepperoniPizza
+	...
+	class NYStyleClamPizza
+	...
+	class NYStyleVeggiePizza
+	...
 
 
 
@@ -176,6 +234,16 @@ Component : Operation()
 		ConcreteDecoratorB : Operation(), addedBehavior()
 
 // Implementation
+interface Beverage : getDescription(), cost(), description
+	class HouseBlend
+	class DarkRoast
+	class Decaf
+	class Espresso
+	interface CondimentDecorator
+		class Milk
+		class Mocha
+		class Soy
+		class Whip
 
 
 
@@ -340,6 +408,19 @@ Strategy : AlgorithmInterface()
 	ConcreteStrategyC : AlgorithmInterface()
 
 // Implementation
+interface Duck : FlyBehavior flyBehavior, QuackBehavior quackBehavior,
+				 swim(), display()
+	class MallardDuck
+	class RedheadDuck
+	class RubberDuck
+	class DecoyDuck
+interface FlyBehavior : fly()
+	class FlyWithWings
+	class FlyNoWay
+interface QuackBehavior : quack()
+	class Quack
+	class Squeak
+	class MuteQuack
 
 
 
