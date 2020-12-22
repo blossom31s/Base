@@ -36,9 +36,10 @@
 - AI
 
 * Community
-- Web
-- AI
-	http://aifactory.space
+- Github
+	Search
+		github awesome design patterns
+- http://aifactory.space
 
 
 
