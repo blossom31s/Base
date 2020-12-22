@@ -77,8 +77,7 @@ AbstractProductB
 Client
 
 // Implementation
-interface PizzaIngredientFactory : createDough(), createSauce(), createCheese(),
-								   createVeggie(), createPepperoni(), createClam()
+interface PizzaIngredientFactory : createDough(), createSauce(), createCheese(), createVeggie(), createPepperoni(), createClam()
 	class NYPizzaIngredientFactory
 	class ChicagoPizzaIngredientFactory
 	class CaliforniaPizzaIngredientFactory
