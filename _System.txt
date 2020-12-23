@@ -38,7 +38,7 @@
 * Community
 - Github
 	Search
-		github awesome design patterns
+		awesome design patterns
 - http://aifactory.space
 
 
@@ -180,8 +180,11 @@ and create new objects by copying this prototype.
 Ensure a class only has one instance, and provide a global point of access to it.
 
 // Structure
+Singleton : static Instance(), SingletonOperation(), GetSingletonData(),
+			static uniqueInstance, singletonData
 
 // Implementation
+class Singleton : getInstance(), uniqueInstance // DCL(Double-Checking Locking)
 
 
 
@@ -250,7 +253,7 @@ interface Beverage : getDescription(), cost(), description
 --------------------------------------------------< Facade >--------------------------------------------------
 
 // Intent
-Provide a unified initerface to a set of interfaces in a subsystem.
+Provide a unified interface to a set of interfaces in a subsystem.
 Facade defines a higher-level interface that makes the subsystem easier to use.
 
 // Structure
