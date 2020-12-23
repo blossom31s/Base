@@ -194,9 +194,19 @@ class Singleton : getInstance(), uniqueInstance // DCL(Double-Checking Locking)
 Convert the interface of a class into another interface clients expect.
 Adapter lets classes work together that couldn't otherwise because of incompatible interfaces.
 
-// Structure
+// Structure(Class Adapter)
+Target : Request() / Adaptee : SpecificRequest()
+	Adapter : Request()
+Client
+
+// Structure(Object Adapter)
+Targer : Request()
+	Adapter : Request()
+Adaptee : SpecificRequest()
+Client
 
 // Implementation
+class EnumberationIterator : hasNext(), next(), remove()
 
 
 
@@ -257,6 +267,8 @@ Provide a unified interface to a set of interfaces in a subsystem.
 Facade defines a higher-level interface that makes the subsystem easier to use.
 
 // Structure
+Facade
+SubSystemClasses
 
 // Implementation
 
