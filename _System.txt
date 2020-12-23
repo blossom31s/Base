@@ -1,4 +1,4 @@
-* Base(Monthly Review) : System Design Patterns // various languages, such as c++, java, python
+* Base(Monthly Review) : System Design Patterns // various languages, such as C++, Java, Python
 - Creational
 	Abstract Factory
 	Builder
@@ -305,8 +305,37 @@ thereby letting you parameterize clients with different requests, queue or log r
 and support undoable operations.
 
 // Structure
+Command : Execute()
+	ConcreteCommand : Execute(), state
+Invoker
+Receiver : Action()
+Client
 
 // Implementation
+interface Command : execute(), undo()
+	class NoCommand
+	class MacroCommand : commands[]
+	class LightOnCommand : light
+	class LightOffCommand : light
+	class StereoOnCommand : stereo
+	class StereoOnWithCDCommand : stereo
+	class StereoOnWithDVDCommand : stereo
+	class StereoOnWithRadioCommand : stereo
+	class StereoOffCommand : stereo
+	class CeilingFanHighCommand : ceilingFan, prevSpeed
+	class CeilingFanMediumCommand : ceilingFan, prevSpeed
+	class CeilingFanLowCommand : ceilingFan, prevSpeed
+	class CeilingFanOffCommand : ceilingFan, prevSpeed
+interface Device : on(), off()
+	class Light
+	class Stereo : setCD(), setDVD(), setRadio(), setVolume()
+	class CeilingFan : high(), medium(), low(), getSpeed(),
+					   high, medium, low, off, speed
+	class Garage : up(), down(), stop()
+	class TV : ...
+	class Hottub : ...
+class RemoteControlWithUndo : setCommand(), onButtonWasPushed(), offButtonWasPushed(), undoButtonWasPushed()
+							  onCommands[], offCommands[], undoCommand
 
 
 
