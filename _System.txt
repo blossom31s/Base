@@ -1,504 +1,168 @@
-* Base(Monthly Review) : System Design Patterns // various languages, such as C++, Java, Python
-- Creational
-	Abstract Factory
-	Builder
-	Factory Method
-	Prototype
-	Singleton
-- Structural
-	Adapter
-	Bridge
-	Composite
-	Decorator
-	Facade
-	Flyweight
-	Proxy
-- Behavioral
-	Chain of Responsibility
-	Command
-	Interpreter
-	Iterator
-	Mediator
-	Memento
-	Observer
-	State
-	Strategy
-	Template Method
-	Visitor
-
-* Career
-- Concept
+* Concept(Monthly Review)
+- Common
+	Object Oriented Programming
+	System Design Patterns
 	Sync vs Async / Block vs Non-Block
-- Algorithms
+- Language
+	C++
+		Pointer
+		Copy Constructor
+		Virtual Function
+		Multiple Inheritance
+		Operator Overloading
+		Values(glvalue, rvalue, lvalue, xvalue, prvalue)
+		Lambda Expression
+		Standard Template Library
+	Java
+		Overloading & Overriding
+		Collection Framework
+		Generics
+	Python
+
+* Algorithms
+- Data Structure
+	Array
+	List
+	Linked List
+	Stack & Queue
+	Tree
+	Graph
+- Bit Manipulation
+- Math & Logic Puzzle
+- Object Oriented Programming
+- Recursion & Dynamic Programming
+- Scalability
+- Sort & Search
+- Thread & Lock
+
+* Portfolio
 - Web(Full Stack)
 	Web Information Management System : Springless / SpringMVC / SpringBoot
 - App
 - AI
 
-* Community
-- Github
-	Search
-		awesome design patterns
-- http://aifactory.space
+* Progress
+- Weekday morning
+	System Design Patterns
+- Spare Time
+	github : awesome design patterns
+- Reference
+	http://aifactory.space
+- Book Scan
+	코딩인터뷰 완전분석(게일 라크만 맥도웰 / 인사이트)
+	코딩 테스트를 위한 자료 구조와 알고리즘 with C++(존 캐리 / 길벗)
+	코딩마법서 C/C++ STONE 코딩테스트를 위한 C/C++(오일러 / 오일러)
 
 
 
 --------------------------------------------------< ? >--------------------------------------------------
 
-// Intent
-
-// Structure
-
-// Implementation
-
-
-
---------------------------------------------------< ?(Java) >--------------------------------------------------
-
-// Code...
-
-
-
---------------------------------------------------< Abstract Factory >--------------------------------------------------
-
-// Intent
-Provide an interface for creating families of related or dependent objects
-without specifying their concrete classes.
-
-// Structure
-AbstractFactory : CreateProductA(), CreateProductB()
-	ConcreteFactory1 : CreateProductA(), CreateProductB()
-	ConcreteFactory2 : CreateProductA(), CreateProductB()
-AbstractProductA
-	ProductA1
-	ProductA2
-AbstractProductB
-	ProductB1
-	ProductB2
-Client
+// ...
 
-// Implementation
-interface PizzaIngredientFactory : createDough(), createSauce(), createCheese(), createVeggie(), createPepperoni(), createClam()
-	class NYPizzaIngredientFactory
-	class ChicagoPizzaIngredientFactory
-	class CaliforniaPizzaIngredientFactory
-interface Ingredient
-	class Dough
-		class ThinCrustDough // NY
-		class ThickCrustDough // Chicago
-		class VeryThinCrustDough // California
-	class Sauce
-		class MarinaraSauce // NY
-		class PlumTomatoSauce // Chicago
-		class BruschettaSauce // California
-	class Cheese
-		class ReggianoCheese // NY
-		class MozzarellaCheese // Chicago
-		class GoatCheese // California
-	class Veggie
-		class A // NY
-		class B // Chicago
-		class C // California
-	class Pepperoni
-		class SlicedPepperoni // NY
-		class B // Chicago
-		class C // California
-	class Clam
-		class FreshClam // NY
-		class FrozenClam // Chicago
-		class Camari // California
-interface PizzaStore : createPizza()
-	class NYPizzaStore
-	class ChicagoPizzaStore
-	class CaliforniaPizzaStore
-interface Pizza : prepare(), bake(), cut(), box(), getName(), setName(),
-				  name, dough, sauce, veggie, cheese, pepperoni, clam
-	class CheesePizza
-	class VeggiePizza
-	class PepperoniPizza
-	class ClamPizza
 
 
+--------------------------------------------------< Object Oriented Programming >--------------------------------------------------
 
---------------------------------------------------< Builder >--------------------------------------------------
+// ?
+Information Hiding
+Encapsulation
+Constructor & Destructor
+Inheritance & Polymorphism
 
-// Intent
-Separate the construction of a complex object from its representation
-so that the same construction process can create different representations.
 
-// Structure
 
-// Implementation
+--------------------------------------------------< System Design Patterns >--------------------------------------------------
 
+* [Creational] Abstract Factory
+- Provide an interface for creating families of related or dependent objects
+  without specifying their concrete classes.
 
+* [Creational] Builder
+- Separate the construction of a complex object from its representation
+  so that the same construction process can create different representations.
 
---------------------------------------------------< Factory Method >--------------------------------------------------
+* [Creational] Factory Method
+- Define an interface for creating an object, but let subclasses decide which class to instantiate.
+  Factory Method lets a class defer instantiation to subclasses.
 
-// Intent
-Define an interface for creating an object, but let subclasses decide which class to instantiate.
-Factory Method lets a class defer instantiation to subclasses.
+* [Creational] Prototype
+- Specify the kinds of objects to create using a prototypical instance,
+  and create new objects by copying this prototype.
 
-// Structure
-Creator : FactoryMethod(), AnOperation()
-	ConcreteCreator
-Product
-	ConcreteProduct
+* [Creational] Singleton
+- Ensure a class only has one instance, and provide a global point of access to it.
 
-// Implementation
-interface PizzaStore : createPizza(), orderPizza()
-	class NYPizzaStore
-	class ChicagoPizzaStore
-	class CaliforniaPizzaStore
-interface Pizza : prepare(), bake(), cut(), box(), getName(), setName()
-	class NYStyleCheesePizza
-	class ChicagoStyleCheesePizza
-	class CaliforniaStyleCheesePizza
-	class NYStylePepperoniPizza
-	...
-	class NYStyleClamPizza
-	...
-	class NYStyleVeggiePizza
-	...
+* [Structural] Adapter
+- Convert the interface of a class into another interface clients expect.
+  Adapter lets classes work together that couldn't otherwise because of incompatible interfaces.
 
+* [Structural] Bridge
+- Decouple an abstraction from its implementation so that the two can vary independently.
 
+* [Structural] Composite
+- Compose objects into tree structures to represent part-whole hierarchies.
+  Composite lets clients treat individual objects and compositions of objects uniformly.
 
---------------------------------------------------< Prototype >--------------------------------------------------
+* [Structural] Decorator
+- Attach additional responsibilities to an object dynamically.
+  Decorators provide a flexible alternative to subclassing for extending functionality.
 
-// Intent
-Specify the kinds of objects to create using a prototypical instance,
-and create new objects by copying this prototype.
+* [Structural] Facade
+- Provide a unified interface to a set of interfaces in a subsystem.
+  Facade defines a higher-level interface that makes the subsystem easier to use.
 
-// Structure
+* [Structural] Flyweight
+- Use sharing to support large numbers of fine-grained objects efficiently.
 
-// Implementation
+* [Structural] Proxy
+- Provide a surrogate or placeholder for another object to control access to it.
 
+* [Behavioral] Chain of Responsibility
+- Avoid coupling the sender of a request to its receiver
+  by giving more than one object a chance to handle the request.
+  Chain the receiving objects and pass the request along the chain until an object handles it.
 
+* [Behavioral] Command
+- Encapsulate a request as an object,
+  thereby letting you parameterize clients with different requests, queue or log requests,
+  and support undoable operations.
 
---------------------------------------------------< Singleton >--------------------------------------------------
+* [Behavioral] Interpreter
+- Given a language, define a representation for its grammar along with an interpreter
+  that uses the representation to interpret sentences in the language.
 
-// Intent
-Ensure a class only has one instance, and provide a global point of access to it.
+* [Behavioral] Iterator
+- Provide a way to access the elements of an aggregate object sequentially
+  without exposing its underlying representation.
 
-// Structure
-Singleton : static Instance(), SingletonOperation(), GetSingletonData(),
-			static uniqueInstance, singletonData
+* [Behavioral] Mediator
+- Define an object that encapsulates how a set of objects interact.
+  Mediator promotes loose coupling by keeping objects from referring to each other explicitly,
+  and it lets you vary their interaction independently.
 
-// Implementation
-class Singleton : getInstance(), uniqueInstance // DCL(Double-Checking Locking)
+* [Behavioral] Memento
+- Without violating encapsulation, capture and externalize an object's internal state
+  so that the object can be restored to this state later.
 
+* [Behavioral] Observer
+- Define a one-to-many dependency between objects
+  so that when one object changes state, all its dependents are notified and updated automatically.
 
+* [Behavioral] State
+- Allow an object to alter its behavior when its internal state changes.
+  The object will appear to change its class.
 
---------------------------------------------------< Adapter >--------------------------------------------------
+* [Behavioral] Strategy
+- Define a family of algorithms, encapsulate each one, and make them interchangeable.
+  Strategy lets the algorithm vary independently from clients that use it.
 
-// Intent
-Convert the interface of a class into another interface clients expect.
-Adapter lets classes work together that couldn't otherwise because of incompatible interfaces.
-
-// Structure(Class Adapter)
-Target : Request() / Adaptee : SpecificRequest()
-	Adapter : Request()
-Client
-
-// Structure(Object Adapter)
-Targer : Request()
-	Adapter : Request()
-Adaptee : SpecificRequest()
-Client
-
-// Implementation
-class EnumberationIterator : hasNext(), next(), remove()
-
-
-
---------------------------------------------------< Bridge >--------------------------------------------------
-
-// Intent
-Decouple an abstraction from its implementation so that the two can vary independently.
-
-// Structure
-
-// Implementation
-
-
-
---------------------------------------------------< Composite >--------------------------------------------------
-
-// Intent
-Compose objects into tree structures to represent part-whole hierarchies.
-Composite lets clients treat individual objects and compositions of objects uniformly.
-
-// Structure
-
-// Implementation
-
-
-
---------------------------------------------------< Decorator >--------------------------------------------------
-
-// Intent
-Attach additional responsibilities to an object dynamically.
-Decorators provide a flexible alternative to subclassing for extending functionality.
-
-// Structure
-Component : Operation()
-	ConcreteComponent : Operation()
-	Decorator : Operation()
-		ConcreteDecoratorA : Operation(), addedState
-		ConcreteDecoratorB : Operation(), addedBehavior()
-
-// Implementation
-interface Beverage : getDescription(), cost(), description
-	class HouseBlend
-	class DarkRoast
-	class Decaf
-	class Espresso
-	interface CondimentDecorator
-		class Milk
-		class Mocha
-		class Soy
-		class Whip
-
-
-
---------------------------------------------------< Facade >--------------------------------------------------
-
-// Intent
-Provide a unified interface to a set of interfaces in a subsystem.
-Facade defines a higher-level interface that makes the subsystem easier to use.
-
-// Structure
-Facade
-SubSystemClasses
-
-// Implementation
-class HomeTheaterFacade : watchMovie(), endMovie()
-interface SubSystem : on(), off()
-	class Amplifier : setDVD(), setSurroundSound(), setVolume()
-	class Tuner
-	class DVDPlayer : play(), stop(), eject()
-	class CDPlayer
-	class Projector : wideScreenMode()
-	class TheaterLights : dim()
-	class Screen : up(), down()
-	class PopcornPopper : pop()
-
-
-
---------------------------------------------------< Flyweight >--------------------------------------------------
-
-// Intent
-Use sharing to support large numbers of fine-grained objects efficiently.
-
-// Structure
-
-// Implementation
-
-
-
---------------------------------------------------< Proxy >--------------------------------------------------
-
-// Intent
-Provide a surrogate or placeholder for another object to control access to it.
-
-// Structure
-
-// Implementation
-
-
-
---------------------------------------------------< Chain of Responsibility >--------------------------------------------------
-
-// Intent
-Avoid coupling the sender of a request to its receiver
-by giving more than one object a chance to handle the request.
-Chain the receiving objects and pass the request along the chain until an object handles it.
-
-// Structure
-
-// Implementation
-
-
-
---------------------------------------------------< Command >--------------------------------------------------
-
-// Intent
-Encapsulate a request as an object,
-thereby letting you parameterize clients with different requests, queue or log requests,
-and support undoable operations.
-
-// Structure
-Command : Execute()
-	ConcreteCommand : Execute(), state
-Invoker
-Receiver : Action()
-Client
-
-// Implementation
-interface Command : execute(), undo()
-	class NoCommand
-	class MacroCommand : commands[]
-	class LightOnCommand : light
-	class LightOffCommand : light
-	class StereoOnCommand : stereo
-	class StereoOnWithCDCommand : stereo
-	class StereoOnWithDVDCommand : stereo
-	class StereoOnWithRadioCommand : stereo
-	class StereoOffCommand : stereo
-	class CeilingFanHighCommand : ceilingFan, prevSpeed
-	class CeilingFanMediumCommand : ceilingFan, prevSpeed
-	class CeilingFanLowCommand : ceilingFan, prevSpeed
-	class CeilingFanOffCommand : ceilingFan, prevSpeed
-interface Device : on(), off()
-	class Light
-	class Stereo : setCD(), setDVD(), setRadio(), setVolume()
-	class CeilingFan : high(), medium(), low(), getSpeed(),
-					   high, medium, low, off, speed
-	class Garage : up(), down(), stop()
-	class TV : ...
-	class Hottub : ...
-class RemoteControlWithUndo : setCommand(), onButtonWasPushed(), offButtonWasPushed(), undoButtonWasPushed()
-							  onCommands[], offCommands[], undoCommand
-
-
-
---------------------------------------------------< Interpreter >--------------------------------------------------
-
-// Intent
-Given a language, define a representation for its grammar along with an interpreter
-that uses the representation to interpret sentences in the language.
-
-// Structure
-
-// Implementation
-
-
-
---------------------------------------------------< Iterator >--------------------------------------------------
-
-// Intent
-Provide a way to access the elements of an aggregate object sequentially
-without exposing its underlying representation.
-
-// Structure
-
-// Implementation
-
-
-
---------------------------------------------------< Mediator >--------------------------------------------------
-
-// Intent
-Define an object that encapsulates how a set of objects interact.
-Mediator promotes loose coupling by keeping objects from referring to each other explicitly,
-and it lets you vary their interaction independently.
-
-// Structure
-
-// Implementation
-
-
-
---------------------------------------------------< Memento >--------------------------------------------------
-
-// Intent
-Without violating encapsulation, capture and externalize an object's internal state
-so that the object can be restored to this state later.
-
-// Structure
-
-// Implementation
-
-
-
---------------------------------------------------< Observer >--------------------------------------------------
-
-// Intent
-Define a one-to-many dependency between objects
-so that when one object changes state, all its dependents are notified and updated automatically.
-
-// Structure
-Subject : attach(Observer), detach(Observer), notify()
-	ConcreteSubject : getState(), setState(), subjectState
-Observer : update()
-	ConcreteObserver : update(), observerState
-
-// Implementation
-interface WeatherSubject : attachObserver(String observer), detachObserver(String observer), notifyObserver()
-class WeatherStation1 : getTemperature(), setTemperature(int temperature), getHumidity(), setHumidity(int humidity), getPressure(), setPressure(int pressure), observerList1, weatherData1
-class WeatherStation2 : getHeatIndex(), setHeatIndex(int heatIndex), observerList2, weatherData2
-interface WeatherObserver : update(HashMap<String, Integer> map)
-class DisplayOfCurrentConditions : display(), requestedData, weatherDataCurrentConditions
-class DisplayOfStatistics : display(), requestedData, weatherDataStatistics
-class DisplayOfForecast : display(), requestedData, weatherDataForecast
-interface OperationManager : operationType
-class PushType : setGap(int gap), gap
-class PullType : hasChanged(), changedData
-
-
-
---------------------------------------------------< State >--------------------------------------------------
-
-// Intent
-Allow an object to alter its behavior when its internal state changes.
-The object will appear to change its class.
-
-// Structure
-
-// Implementation
-
-
-
---------------------------------------------------< Strategy >--------------------------------------------------
-
-// Intent
-Define a family of algorithms, encapsulate each one, and make them interchangeable.
-Strategy lets the algorithm vary independently from clients that use it.
-
-// Structure
-Context : ContextInterface()
-Strategy : AlgorithmInterface()
-	ConcreteStrategyA : AlgorithmInterface()
-	ConcreteStrategyB : AlgorithmInterface()
-	ConcreteStrategyC : AlgorithmInterface()
-
-// Implementation
-interface Duck : FlyBehavior flyBehavior, QuackBehavior quackBehavior,
-				 swim(), display()
-	class MallardDuck
-	class RedheadDuck
-	class RubberDuck
-	class DecoyDuck
-interface FlyBehavior : fly()
-	class FlyWithWings
-	class FlyNoWay
-interface QuackBehavior : quack()
-	class Quack
-	class Squeak
-	class MuteQuack
-
-
-
---------------------------------------------------< Template Method >--------------------------------------------------
-
-// Intent
-Define the skeleton of an algorithm in an operation, deferring some steps to subclasses.
-Template Method lets subclasses redefine certain steps of an algorithm
-without changing the algorithm's structure.
-
-// Structure
-
-// Implementation
-
-
-
---------------------------------------------------< Visitor >--------------------------------------------------
-
-// Intent
-Represent an operation to be performed on the elements of an object structure.
-Visitor lets you define a new operation without changing the classes of the elements on which it operates.
-
-// Structure
-
-// Implementation
+* [Behavioral] Template Method
+- Define the skeleton of an algorithm in an operation, deferring some steps to subclasses.
+  Template Method lets subclasses redefine certain steps of an algorithm
+  without changing the algorithm's structure.
+
+* [Behavioral] Visitor
+- Represent an operation to be performed on the elements of an object structure.
+  Visitor lets you define a new operation without changing the classes of the elements on which it operates.
 
 
