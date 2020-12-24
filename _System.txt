@@ -271,6 +271,16 @@ Facade
 SubSystemClasses
 
 // Implementation
+class HomeTheaterFacade : watchMovie(), endMovie()
+interface SubSystem : on(), off()
+	class Amplifier : setDVD(), setSurroundSound(), setVolume()
+	class Tuner
+	class DVDPlayer : play(), stop(), eject()
+	class CDPlayer
+	class Projector : wideScreenMode()
+	class TheaterLights : dim()
+	class Screen : up(), down()
+	class PopcornPopper : pop()
 
 
 
