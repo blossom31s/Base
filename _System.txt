@@ -41,6 +41,12 @@
 - AI
 
 * Progress
+- Study Order
+	Head First Design Patterns
+	Sync vs Async / Block vs Non-Block
+	Java
+	C++
+	Algorithms
 - Weekday morning
 	Concept List, Design Patterns
 - Spare Time
