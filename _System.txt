@@ -5,17 +5,7 @@
 	Sync vs Async / Block vs Non-Block
 - Language
 	C++
-		Pointer
-		Copy Constructor
-		Virtual Function
-		Multiple Inheritance
-		Operator Overloading
-		Values(glvalue, rvalue, lvalue, xvalue, prvalue)
-		Lambda Expression
-		Standard Template Library
 	Java
-		Collection Framework
-		Generics
 	Python
 
 * Algorithms
@@ -41,10 +31,8 @@
 - AI
 
 * Progress
-- Weekday Morning
-	Concept List, OOP, Design Patterns
 - Study Order
-	Head First Design Patterns : p.423~
+	Head First Design Patterns : p.479~
 	Sync vs Async / Block vs Non-Block
 	Java
 	C++
@@ -210,5 +198,34 @@
 --------------------------------------------------< Sync vs Async / Block vs Non-Block >--------------------------------------------------
 
 // ...
+
+
+
+--------------------------------------------------< C++ >--------------------------------------------------
+
+// ...
+Pointer
+Copy Constructor
+Virtual Function
+Multiple Inheritance
+Operator Overloading
+Values(glvalue, rvalue, lvalue, xvalue, prvalue)
+Lambda Expression
+Standard Template Library
+
+
+
+--------------------------------------------------< Java >--------------------------------------------------
+
+// ...
+Collection Framework
+Generics
+
+
+
+--------------------------------------------------< Python >--------------------------------------------------
+
+// ...
+
 
 
