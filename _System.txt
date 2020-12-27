@@ -33,7 +33,7 @@
 
 * Progress
 - Study
-	Head First Design Patterns : p.517~
+	Head First Design Patterns : p.649~
 	Sync vs Async / Block vs Non-Block
 	Java
 	C++
