@@ -8,23 +8,22 @@
 	Java
 	Python
 
-* Algorithms
-- Data Structure
-	Array
-	List
-	Linked List
-	Stack & Queue
-	Tree
-	Graph
-- Bit Manipulation
-- Math & Logic Puzzle
-- Object Oriented Programming
-- Recursion & Dynamic Programming
-- Scalability
-- Sort & Search
-- Thread & Lock
-
-* Portfolio
+* Career(Portfolio)
+- Algorithms
+	Data Structure
+		Array
+		List
+		Linked List
+		Stack & Queue
+		Tree
+		Graph
+	Bit Manipulation
+	Math & Logic Puzzle
+	Object Oriented Programming
+	Recursion & Dynamic Programming
+	Scalability
+	Sort & Search
+	Thread & Lock
 - Web(Full Stack)
 	Web Information Management System : Springless / SpringMVC / SpringBoot
 - App
