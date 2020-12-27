@@ -1,5 +1,5 @@
-* Concept(Monthly Review)
-- Common
+* Base(Monthly Review)
+- Concept
 	Object Oriented Programming
 	Design Patterns
 	Sync vs Async / Block vs Non-Block
@@ -7,22 +7,23 @@
 	C++
 	Java
 	Python
-- Algorithms
-	Cracking the Coding Interview(6E)
-		Data Structure
-			Array
-			List
-			Linked List
-			Stack & Queue
-			Tree
-			Graph
-		Bit Manipulation
-		Math & Logic Puzzle
-		Object Oriented Programming
-		Recursion & Dynamic Programming
-		Scalability
-		Sort & Search
-		Thread & Lock
+
+* Algorithms
+- Cracking the Coding Interview(6E)
+	Data Structure
+		Array
+		List
+		Linked List
+		Stack & Queue
+		Tree
+		Graph
+	Bit Manipulation
+	Math & Logic Puzzle
+	Object Oriented Programming
+	Recursion & Dynamic Programming
+	Scalability
+	Sort & Search
+	Thread & Lock
 
 * Portfolio
 - Web(Full Stack)
@@ -32,7 +33,7 @@
 
 * Progress
 - Study
-	Head First Design Patterns : p.479~
+	Head First Design Patterns : p.517~
 	Sync vs Async / Block vs Non-Block
 	Java
 	C++
