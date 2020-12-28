@@ -209,6 +209,9 @@
 - Blocking vs Non-Blocking : 호출한 입장에서의 특징
 - Synchronous vs Asynchronous : 처리되는 방식의 특징
 
+* 정리할 것
+https://www.slideshare.net/unitimes/sync-asyncblockingnonblockingio
+
 
 
 --------------------------------------------------< C++ >--------------------------------------------------
