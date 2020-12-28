@@ -33,7 +33,6 @@
 
 * Progress
 - Study
-	Head First Design Patterns : p.649~
 	Sync vs Async / Block vs Non-Block
 	Java
 	C++
@@ -196,9 +195,19 @@
 
 
 
---------------------------------------------------< Sync vs Async / Block vs Non-Block >--------------------------------------------------
+--------------------------------------------------< Sync vs Async / Blocking vs Non-Blocking >--------------------------------------------------
 
-// ...
+* Distinction
+- Blocking vs Non-Blocking (제어권) : 호출되는 함수의 결과를... 바로 리턴하지 않음 vs 바로 리턴함
+- Synchronous vs Asynchronous (시간) : 호출되는 함수의 작업 완료를 호출된 함수가... 신경씀 vs 신경쓰지 않음
+
+* Comment1
+- Non-Blocking : 제어문 수준에서 지체없이 반환하는 것
+- Asynchronous : 별도의 쓰레드를 빼서 실행하고 완료되면 호출하는 측에 알려주는 것
+
+* Comment2
+- Blocking vs Non-Blocking : 호출한 입장에서의 특징
+- Synchronous vs Asynchronous : 처리되는 방식의 특징
 
 
 
