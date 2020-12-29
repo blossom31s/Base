@@ -43,6 +43,7 @@
 	http://aifactory.space
 - Book Scan
 	Clean Code 클린 코드(로버트 C. 마틴 / 인사이트)
+	자바의 정석(남궁성 / 도우출판)
 
 
 
