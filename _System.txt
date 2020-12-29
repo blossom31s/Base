@@ -41,7 +41,7 @@
 	github : awesome design patterns
 - Reference
 	http://aifactory.space
-- Book Scan 조사
+- Book Scan
 	Clean Code 클린 코드(로버트 C. 마틴 / 인사이트)
 
 
