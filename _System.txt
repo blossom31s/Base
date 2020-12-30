@@ -1,49 +1,33 @@
-* Base(Monthly Review)
+* Main
 - Concept
 	Object Oriented Programming
+	Synchronous vs Asynchronous / Blocking vs Non-Blocking
+- Code
+	Algorithms
+		Cracking the Coding Interview(6E)
+			Data Structure(Array, List, Linked List, Stack & Queue, Tree, Graph)
+			Bit Manipulation
+			Math & Logic Puzzle
+			Object Oriented Programming
+			Recursion & Dynamic Programming
+			Scalability
+			Sort & Search
+			Thread & Lock
 	Design Patterns
-	Sync vs Async / Block vs Non-Block
-- Language
-	C++
-	Java
-	Python
-
-* Algorithms
-- Cracking the Coding Interview(6E)
-	Data Structure
-		Array
-		List
-		Linked List
-		Stack & Queue
-		Tree
-		Graph
-	Bit Manipulation
-	Math & Logic Puzzle
-	Object Oriented Programming
-	Recursion & Dynamic Programming
-	Scalability
-	Sort & Search
-	Thread & Lock
 
 * Portfolio
-- Web(Full Stack)
-	Web Information Management System : Springless / SpringMVC / SpringBoot
-- App
-- AI
+- Responsive Web Full Stack
+	Springless
+	SpringMVC
+	SpringBoot
+
+* Reference
+- Linux
+- Start Bootstrap
 
 * Progress
-- Study
-	Sync vs Async / Block vs Non-Block
-	Java
-	C++
-	Algorithms
-- Spare Time
-	github : awesome design patterns
-- Reference
-	http://aifactory.space
 - Book Scan
 	Clean Code 클린 코드(로버트 C. 마틴 / 인사이트)
-	자바의 정석(남궁성 / 도우출판)
 
 
 
@@ -192,11 +176,17 @@
 
 
 
---------------------------------------------------< Sync vs Async / Blocking vs Non-Blocking >--------------------------------------------------
+--------------------------------------------------< Synchronous vs Asynchronous / Blocking vs Non-Blocking >--------------------------------------------------
 
 * Distinction
-- Blocking vs Non-Blocking (제어권) : 호출되는 함수의 결과를... 바로 리턴하지 않음 vs 바로 리턴함
+- Blocking vs Non-Blocking (제어권, IO) : 호출되는 함수의 결과를... 바로 리턴하지 않음 vs 바로 리턴함
 - Synchronous vs Asynchronous (시간) : 호출되는 함수의 작업 완료를 호출된 함수가... 신경씀 vs 신경쓰지 않음
+
+* Feature
+- Waiting for system call's completion : Synchronous, Blocking
+- Immediate return : Asynchronous, Non-Blocking
+- Return with data : Synchronous, Blocking, Non-Blocking
+- Waiting in a waiting queue : Blocking
 
 * Comment1
 - Non-Blocking : 제어문 수준에서 지체없이 반환하는 것
@@ -206,36 +196,10 @@
 - Blocking vs Non-Blocking : 호출한 입장에서의 특징
 - Synchronous vs Asynchronous : 처리되는 방식의 특징
 
-* 정리할 것
-https://www.slideshare.net/unitimes/sync-asyncblockingnonblockingio
 
 
-
---------------------------------------------------< C++ >--------------------------------------------------
+--------------------------------------------------< ? >--------------------------------------------------
 
 // ...
-Pointer
-Copy Constructor
-Virtual Function
-Multiple Inheritance
-Operator Overloading
-Values(glvalue, rvalue, lvalue, xvalue, prvalue)
-Lambda Expression
-Standard Template Library
-
-
-
---------------------------------------------------< Java >--------------------------------------------------
-
-// ...
-Collection Framework
-Generics
-
-
-
---------------------------------------------------< Python >--------------------------------------------------
-
-// ...
-
 
 
