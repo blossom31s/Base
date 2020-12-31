@@ -206,6 +206,14 @@
 
 --------------------------------------------------< SQLP >--------------------------------------------------
 
-* ?
+* SQL
+	DML(Date Manipulation Language) : SELECT, INSERT, UPDATE, DELETE
+	DDL(Data Definition Language) : CREATE, ALTER, DROP, RENAME
+	DCL(Data Control Language) : GRANT, REVOKE
+	TCL(Transaction Control Language) : COMMIT, ROLLBACK
+
+* 비절차적 vs 절차적
+- As-Is : 비절차적 데이터 조작어(DML)은 사용자가 무슨(What) 데이터를 원하는 지를 명세함
+- To-Be : 절차적 데이터 조작어(PL/SQL(Oracle), T-SQL(SQL Server))은 사용자가 어떻게(How) 데이터에 접근해야 하는지를 명세함
 
 
