@@ -34,7 +34,6 @@
 
 * Issue
 - Job ID ?
-- 친절한 SQL 튜닝 p.?
 
 
 
@@ -202,5 +201,11 @@
 - Represent an operation to be performed on the elements of an object structure.
   Visitor lets you define a new operation without changing the classes of the elements on which it operates.
   // Code...
+
+
+
+--------------------------------------------------< SQLP >--------------------------------------------------
+
+* ?
 
 
