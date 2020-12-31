@@ -1,4 +1,4 @@
-* Main
+* Main(Monthly Review)
 - Concept
 	Object Oriented Programming
 	Synchronous vs Asynchronous / Blocking vs Non-Blocking
@@ -15,6 +15,11 @@
 			Thread & Lock
 	Design Patterns
 
+* Certification
+- Engineer Information Processing
+- Engineer Information Security
+- SQLP
+
 * Portfolio
 - Responsive Web Full Stack
 	Springless
@@ -23,12 +28,11 @@
 - DB ?
 
 * Reference
-- Linux
-- Start Bootstrap
-
-* Progress
 - Book Scan
 	Clean Code 클린 코드(로버트 C. 마틴 / 인사이트)
+
+* Issue
+- Job ID ?
 
 
 
@@ -55,6 +59,28 @@
 - LSP(Liskov's Substitution Principle) : 프로그램의 객체는 정확성을 깨뜨리지 않으면서 하위 타입의 인스턴스로 바꿀 수 있어야 한다.
 - ISP(Interface Segregation Principle) : 특정 클라이언트를 위한 인터페이스 여러 개가 범용 인터페이스 하나 보다 낫다.
 - DIP(Dependency Inversion Principle) : 추상화에 의존한다. 구체화에 의존하면 안 된다.
+
+
+
+--------------------------------------------------< Synchronous vs Asynchronous / Blocking vs Non-Blocking >--------------------------------------------------
+
+* Distinction
+- Blocking vs Non-Blocking (제어권, IO) : 호출되는 함수의 결과를... 바로 리턴하지 않음 vs 바로 리턴함
+- Synchronous vs Asynchronous (시간) : 호출되는 함수의 작업 완료를 호출된 함수가... 신경씀 vs 신경쓰지 않음
+
+* Feature
+- Waiting for system call's completion : Synchronous, Blocking
+- Immediate return : Asynchronous, Non-Blocking
+- Return with data : Synchronous, Blocking, Non-Blocking
+- Waiting in a waiting queue : Blocking
+
+* Comment1
+- Non-Blocking : 제어문 수준에서 지체없이 반환하는 것
+- Asynchronous : 별도의 쓰레드를 빼서 실행하고 완료되면 호출하는 측에 알려주는 것
+
+* Comment2
+- Blocking vs Non-Blocking : 호출한 입장에서의 특징
+- Synchronous vs Asynchronous : 처리되는 방식의 특징
 
 
 
@@ -174,33 +200,5 @@
 - Represent an operation to be performed on the elements of an object structure.
   Visitor lets you define a new operation without changing the classes of the elements on which it operates.
   // Code...
-
-
-
---------------------------------------------------< Synchronous vs Asynchronous / Blocking vs Non-Blocking >--------------------------------------------------
-
-* Distinction
-- Blocking vs Non-Blocking (제어권, IO) : 호출되는 함수의 결과를... 바로 리턴하지 않음 vs 바로 리턴함
-- Synchronous vs Asynchronous (시간) : 호출되는 함수의 작업 완료를 호출된 함수가... 신경씀 vs 신경쓰지 않음
-
-* Feature
-- Waiting for system call's completion : Synchronous, Blocking
-- Immediate return : Asynchronous, Non-Blocking
-- Return with data : Synchronous, Blocking, Non-Blocking
-- Waiting in a waiting queue : Blocking
-
-* Comment1
-- Non-Blocking : 제어문 수준에서 지체없이 반환하는 것
-- Asynchronous : 별도의 쓰레드를 빼서 실행하고 완료되면 호출하는 측에 알려주는 것
-
-* Comment2
-- Blocking vs Non-Blocking : 호출한 입장에서의 특징
-- Synchronous vs Asynchronous : 처리되는 방식의 특징
-
-
-
---------------------------------------------------< ? >--------------------------------------------------
-
-// ...
 
 
