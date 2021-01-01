@@ -206,6 +206,10 @@
 
 --------------------------------------------------< SQLP >--------------------------------------------------
 
+* 비절차적 vs 절차적
+- As-Is : 비절차적 데이터 조작어(DML)은 사용자가 무슨(What) 데이터를 원하는 지를 명세함
+- To-Be : 절차적 데이터 조작어(PL/SQL(Oracle), T-SQL(SQL Server))은 사용자가 어떻게(How) 데이터에 접근해야 하는지를 명세함
+
 * Syntax(Oracle)
 	DML(Date Manipulation Language) : SELECT, INSERT, UPDATE, DELETE
 	DDL(Data Definition Language) : CREATE, ALTER, DROP, RENAME, TRUNCATE
@@ -224,12 +228,28 @@
 	TCL(Transaction Control Language) : COMMIT, ROLLBACK
 
 * Delete vs Truncate vs Drop
-- Delete : 테이블 정의 '존재', 저장공간 '유지', 작업속도 '느림' / Commit 이전에는 Rollback 가능
-- Truncate : 테이블 정의 '존재', 저장공간 '반납', 작업속도 '빠름' / Rollback 불가능, 테이블의 모든 Row를 제거, 테이블을 생성 초기상태로 만듦
-- Drop : 테이블정의 '삭제', 저장공간 '반납', 작업속도 '빠름' / Rollback 불가능, 테이블의 구조를 제거
+- Delete
+	테이블 정의 '존재'(데이터만 삭제)
+	저장공간 '유지'(사용했던 Storage는 Release 안 됨)
+	작업속도 '느림'
+	사용자 Commit(Commit 이전에는 Rollback이 가능)
+- Truncate
+	테이블 정의 '존재'(테이블을 생성 초기상태로 만듦)
+	저장공간 '반납'(사용했던 Storage중 생성초기 Storage만 남기고 Release = 테이블의 모든 Row를 제거)
+	작업속도 '빠름'
+	Auto Commit(Rollback 불가능)
+- Drop
+	테이블 정의 '삭제'
+	저장공간 '반납'(사용했던 Storage를 모두 Release)
+	작업속도 '빠름'
+	Auto Commit(Rollback 불가능)
 
-* 비절차적 vs 절차적
-- As-Is : 비절차적 데이터 조작어(DML)은 사용자가 무슨(What) 데이터를 원하는 지를 명세함
-- To-Be : 절차적 데이터 조작어(PL/SQL(Oracle), T-SQL(SQL Server))은 사용자가 어떻게(How) 데이터에 접근해야 하는지를 명세함
+* Subquery
+	Nested Subquery : WHERE 부분에 나타남
+		Single Row Subquery
+		Multiple Row Subquery
+		Multiple Column Subquery
+	Inline View : FROM 부분에 나타남
+	Scalar Subquery : SELECT 부분에 나타남
 
 
