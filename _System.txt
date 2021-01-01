@@ -206,11 +206,27 @@
 
 --------------------------------------------------< SQLP >--------------------------------------------------
 
-* SQL
+* Syntax(Oracle)
 	DML(Date Manipulation Language) : SELECT, INSERT, UPDATE, DELETE
-	DDL(Data Definition Language) : CREATE, ALTER, DROP, RENAME
+	DDL(Data Definition Language) : CREATE, ALTER, DROP, RENAME, TRUNCATE
+		CREATE
+		ALTER
+			ALTER TABLE [테이블명] ADD [추가할 컬럼명] [데이터 유형];
+			ALTER TABLE [테이블명] DROP COLUMN [삭제할 컬럼명];
+			ALTER TABLE [테이블명] MODIFY([컬럼명1] [데이터 유형1], [컬럼명2] [데이터 유형2]);
+			ALTER TABLE [테이블명] RENAME COLUMN [변경 전 컬럼명] TO [변경 후 컬럼명];
+			ALTER TABLE [테이블명] ADD CONSTRAINT [제약조건명] FOREIGN KEY([컬럼명]) REFERENCES [참조할 테이블명(컬럼명)];
+			ALTER TABLE [테이블명] DROP CONSTRAINT [제약조건명];
+		DROP
+		RENAME
+			RENAME [변경 전 테이블명] TO [변경 후 테이블명];
 	DCL(Data Control Language) : GRANT, REVOKE
 	TCL(Transaction Control Language) : COMMIT, ROLLBACK
+
+* Delete vs Truncate vs Drop
+- Delete : 테이블 정의 '존재', 저장공간 '유지', 작업속도 '느림' / Commit 이전에는 Rollback 가능
+- Truncate : 테이블 정의 '존재', 저장공간 '반납', 작업속도 '빠름' / Rollback 불가능, 테이블의 모든 Row를 제거, 테이블을 생성 초기상태로 만듦
+- Drop : 테이블정의 '삭제', 저장공간 '반납', 작업속도 '빠름' / Rollback 불가능, 테이블의 구조를 제거
 
 * 비절차적 vs 절차적
 - As-Is : 비절차적 데이터 조작어(DML)은 사용자가 무슨(What) 데이터를 원하는 지를 명세함
