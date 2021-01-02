@@ -255,10 +255,28 @@
 	Inline View : FROM 부분에 나타남
 	Scalar Subquery : SELECT 부분에 나타남
 
-* 순수 관계 연산자
-- SELECT
-- PROJECT
-- JOIN
-- DIVIDE
+* 연산자
+- 순수 관계 연산자
+	SELECT
+	PROJECT
+	JOIN
+	DIVIDE
+- 집합 연산자
+	UNION
+	UNION ALL
+	INTERSECT
+	EXCEPT
+
+* Hierarchical Queries
+- Example
+	SELECT
+		LPAD(' ', 2*(LEVEL-1)) || DEPT_NAME AS DEPT_NAME, -- 레벨별 들여쓰기
+		DEP_CD,
+		PARENT_CD,
+		LEVEL
+	FROM
+		DEP
+	START WITH PARENT_CD IS NULL -- 최상위 노드 결정
+	CONNECT BY PRIOR DEP_CD = PARENT_CD; -- 부모노드와 자식노드 연결
 
 
