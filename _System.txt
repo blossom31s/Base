@@ -227,18 +227,21 @@
 	DCL(Data Control Language) : GRANT, REVOKE
 	TCL(Transaction Control Language) : COMMIT, ROLLBACK
 
-* Delete vs Truncate vs Drop
-- Delete
+* SELECT문의 실행순서
+- FROM > WHERE > GROUP BY > HAVING > SELECT > ORDER BY
+
+* DELETE vs TRUNCATE vs DROP
+- DELETE
 	테이블 정의 '존재'(데이터만 삭제)
 	저장공간 '유지'(사용했던 Storage는 Release 안 됨)
 	작업속도 '느림'
 	사용자 Commit(Commit 이전에는 Rollback이 가능)
-- Truncate
+- TRUNCATE
 	테이블 정의 '존재'(테이블을 생성 초기상태로 만듦)
 	저장공간 '반납'(사용했던 Storage중 생성초기 Storage만 남기고 Release = 테이블의 모든 Row를 제거)
 	작업속도 '빠름'
 	Auto Commit(Rollback 불가능)
-- Drop
+- DROP
 	테이블 정의 '삭제'
 	저장공간 '반납'(사용했던 Storage를 모두 Release)
 	작업속도 '빠름'
@@ -251,5 +254,11 @@
 		Multiple Column Subquery
 	Inline View : FROM 부분에 나타남
 	Scalar Subquery : SELECT 부분에 나타남
+
+* 순수 관계 연산자
+- SELECT
+- PROJECT
+- JOIN
+- DIVIDE
 
 
