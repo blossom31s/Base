@@ -1,23 +1,27 @@
+* Base(Monthly Review)
+- Concept
+	Object Oriented Programming
+	Synchronous vs Asynchronous / Blocking vs Non-Blocking
+- Code
+	Procedure
+		Algorithms
+			Cracking the Coding Interview(6E)
+				Data Structure(Array, List, Linked List, Stack & Queue, Tree, Graph)
+				Bit Manipulation
+				Math & Logic Puzzle
+				Object Oriented Programming
+				Recursion & Dynamic Programming
+				Scalability
+				Sort & Search
+				Thread & Lock
+		Design Patterns
+	Structure
+		SQL
+
 * Certification
 - Engineer Information Processing
 - Engineer Information Security
 - SQLP
-
-* Code
-- Procedure
-	Algorithms
-		Cracking the Coding Interview(6E)
-			Data Structure(Array, List, Linked List, Stack & Queue, Tree, Graph)
-			Bit Manipulation
-			Math & Logic Puzzle
-			Object Oriented Programming
-			Recursion & Dynamic Programming
-			Scalability
-			Sort & Search
-			Thread & Lock
-	Design Patterns
-- Structure
-	SQL
 
 * Portfolio
 - Responsive Web Full Stack
@@ -26,7 +30,6 @@
 	SpringBoot
 
 * Reference
-- Synchronous vs Asynchronous / Blocking vs Non-Blocking
 - Book Scan
 	Clean Code 클린 코드(로버트 C. 마틴 / 인사이트)
 
