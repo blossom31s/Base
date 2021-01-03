@@ -1,8 +1,10 @@
-* Main(Monthly Review)
-- Concept
-	Object Oriented Programming
-	Synchronous vs Asynchronous / Blocking vs Non-Blocking
-- Code
+* Certification
+- Engineer Information Processing
+- Engineer Information Security
+- SQLP
+
+* Code
+- Procedure
 	Algorithms
 		Cracking the Coding Interview(6E)
 			Data Structure(Array, List, Linked List, Stack & Queue, Tree, Graph)
@@ -14,12 +16,8 @@
 			Sort & Search
 			Thread & Lock
 	Design Patterns
+- Structure
 	SQL
-
-* Certification
-- Engineer Information Processing
-- Engineer Information Security
-- SQLP
 
 * Portfolio
 - Responsive Web Full Stack
@@ -28,11 +26,12 @@
 	SpringBoot
 
 * Reference
+- Synchronous vs Asynchronous / Blocking vs Non-Blocking
 - Book Scan
 	Clean Code 클린 코드(로버트 C. 마틴 / 인사이트)
 
 * Issue
-- Job ID ?
+- Job ID
 
 
 
@@ -267,15 +266,32 @@
 	EXCEPT
 
 * Hierarchical Queries
-- Example
+- Syntax
+	START WITH
+	CONNECT BY PRIOR
+		CONNECT BY PRIOR 자식컬럼 = 부모컬럼 : 부모에서 자식으로 트리 구성(Top Down)
+		CONNECT BY PRIOR 부모컬럼 = 자식컬럼 : 자식에서 부모로 트리 구성(Bottom Up)
+	LEVEL PseudoColumn
+	ORDER SIBLINGS BY
+- Example(Top Down)
 	SELECT
-		LPAD(' ', 2*(LEVEL-1)) || DEPT_NAME AS DEPT_NAME, -- 레벨별 들여쓰기
-		DEP_CD,
-		PARENT_CD,
-		LEVEL
+		LEVEL, LPAD(' ', 4*(LEVEL-1)) || ename ename,
+		PRIOR ename mgrname -- 상위 행의 컬럼임을 나타내며 생략 가능
+		empno, mgr, job
 	FROM
-		DEP
-	START WITH PARENT_CD IS NULL -- 최상위 노드 결정
-	CONNECT BY PRIOR DEP_CD = PARENT_CD; -- 부모노드와 자식노드 연결
+		emp
+	START WITH
+		job = 'PRESIDENT' -- 최상위 노드 값이 와야 함
+	CONNECT BY
+		PRIOR empno = mgr; -- '자식노드 = 부모노드'의 형식
+- Example(Bottom Up)
+	SELECT
+		LEVEL, LPAD(' ', 4*(LEVEL-1)) || ename ename, empno, mgr, job
+	FROM
+		emp
+	START WITH
+		ename = 'SMITH' -- 최하위 노드 값이 와야 함
+	CONNECT BY
+		PRIOR mgr = ename; -- '부모노드 = 자식노드'의 형식
 
 
