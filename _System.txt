@@ -3,6 +3,8 @@
 	Object Oriented Programming
 	Synchronous vs Asynchronous / Blocking vs Non-Blocking
 - Code
+	Structure
+		SQL
 	Procedure
 		Algorithms
 			Cracking the Coding Interview(6E)
@@ -15,13 +17,14 @@
 				Sort & Search
 				Thread & Lock
 		Design Patterns
-	Structure
-		SQL
 
 * Certification
 - Engineer Information Processing
 - Engineer Information Security
 - SQLP
+- DAP
+- ADP
+- Oracle...
 
 * Portfolio
 - Responsive Web Full Stack
@@ -252,12 +255,15 @@
 	Auto Commit(Rollback 불가능)
 
 * Subquery
-	Nested Subquery : WHERE 부분에 나타남
+	반환값별
 		Single Row Subquery
 		Multiple Row Subquery
 		Multiple Column Subquery
-	Inline View : FROM 부분에 나타남
-	Scalar Subquery : SELECT 부분에 나타남
+	위치별
+		Nested Subquery : WHERE 부분에 나타남
+			Correlated Subquery
+		Inline View : FROM 부분에 나타남
+		Scalar Subquery : SELECT 부분에 나타남
 
 * 연산자
 - 순수 관계 연산자
@@ -299,5 +305,46 @@
 		ename = 'SMITH' -- 최하위 노드 값이 와야 함
 	CONNECT BY
 		PRIOR mgr = ename; -- '부모노드 = 자식노드'의 형식
+
+* Rollup vs Cube vs Grouping Sets
+- GROUP BY
+	SELECT e.DEPTNO, e.JOB, sum(SAL)
+	FROM EMP e
+	GROUP BY e.DEPTNO, e.JOB
+	ORDER BY DEPTNO;
+
+- ROLLUP
+	SELECT e.DEPTNO, e.JOB, sum(SAL)
+	FROM EMP e
+	GROUP BY ROLLUP(e.DEPTNO, e.JOB);
+
+- CUBE
+	SELECT e.DEPTNO, e.JOB, sum(SAL)
+	FROM EMP e
+	GROUP BY CUBE(e.DEPTNO, e.JOB);
+
+- GROUPING SETS
+	SELECT e.DEPTNO, e.JOB, sum(SAL)
+	FROM EMP e
+	GROUP BY GROUPING SETS(e.DEPTNO, e.JOB);
+
+- GROUPING SETS like CUBE
+	SELECT e.DEPTNO, e.JOB, sum(SAL)
+	FROM EMP e
+	GROUP BY GROUPING SETS((e.DEPTNO, e.JOB), e.DEPTNO, e.JOB, ());
+
+* Partition By
+- Example
+SELECT
+	*
+FROM
+(
+	SELECT
+		EMPNO, ENAME, DEPTNO, JOB, SAL, RANK() OVER(PARTITION BY DEPTNO ORDER BY SAL DESC) RANK
+	FROM
+		EMP
+)
+WHERE
+	RANK < 4;
 
 
