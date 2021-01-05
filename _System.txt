@@ -41,6 +41,7 @@
 
 * Issue
 - Job ID
+- 친절한 SQL 튜닝 : p.191~
 
 
 
