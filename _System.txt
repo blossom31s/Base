@@ -100,37 +100,37 @@
 - To-Be : 절차적 데이터 조작어(PL/SQL(Oracle), T-SQL(SQL Server))은 사용자가 어떻게(How) 데이터에 접근해야 하는지를 명세함
 
 * Syntax(Oracle)
-	DML(Date Manipulation Language) : SELECT, INSERT, UPDATE, DELETE
-	DDL(Data Definition Language) : CREATE, ALTER, DROP, RENAME, TRUNCATE
-		CREATE
-		ALTER
+	DML(Date Manipulation Language) : Select, Insert, Update, Delete
+	DDL(Data Definition Language) : Create, Alter, Drop, Rename, Truncate
+		Create
+		Alter
 			ALTER TABLE [테이블명] ADD [추가할 컬럼명] [데이터 유형];
 			ALTER TABLE [테이블명] DROP COLUMN [삭제할 컬럼명];
 			ALTER TABLE [테이블명] MODIFY([컬럼명1] [데이터 유형1], [컬럼명2] [데이터 유형2]);
 			ALTER TABLE [테이블명] RENAME COLUMN [변경 전 컬럼명] TO [변경 후 컬럼명];
 			ALTER TABLE [테이블명] ADD CONSTRAINT [제약조건명] FOREIGN KEY([컬럼명]) REFERENCES [참조할 테이블명(컬럼명)];
 			ALTER TABLE [테이블명] DROP CONSTRAINT [제약조건명];
-		DROP
-		RENAME
+		Drop
+		Rename
 			RENAME [변경 전 테이블명] TO [변경 후 테이블명];
-	DCL(Data Control Language) : GRANT, REVOKE
-	TCL(Transaction Control Language) : COMMIT, ROLLBACK
+	DCL(Data Control Language) : Grant, Revoke
+	TCL(Transaction Control Language) : Commit, Rollback
 
-* SELECT문의 실행순서
+* Select문의 실행순서
 - FROM > WHERE > GROUP BY > HAVING > SELECT > ORDER BY
 
-* DELETE vs TRUNCATE vs DROP
-- DELETE
+* Delete vs Truncate vs Drop
+- Delete
 	테이블 정의 '존재'(데이터만 삭제)
 	저장공간 '유지'(사용했던 Storage는 Release 안 됨)
 	작업속도 '느림'
 	사용자 Commit(Commit 이전에는 Rollback이 가능)
-- TRUNCATE
+- Truncate
 	테이블 정의 '존재'(테이블을 생성 초기상태로 만듦)
 	저장공간 '반납'(사용했던 Storage중 생성초기 Storage만 남기고 Release = 테이블의 모든 Row를 제거)
 	작업속도 '빠름'
 	Auto Commit(Rollback 불가능)
-- DROP
+- Drop
 	테이블 정의 '삭제'
 	저장공간 '반납'(사용했던 Storage를 모두 Release)
 	작업속도 '빠름'
@@ -194,22 +194,18 @@
 	FROM EMP e
 	GROUP BY e.DEPTNO, e.JOB
 	ORDER BY DEPTNO;
-
 - ROLLUP
 	SELECT e.DEPTNO, e.JOB, SUM(SAL)
 	FROM EMP e
 	GROUP BY ROLLUP(e.DEPTNO, e.JOB);
-
 - CUBE
 	SELECT e.DEPTNO, e.JOB, SUM(SAL)
 	FROM EMP e
 	GROUP BY CUBE(e.DEPTNO, e.JOB);
-
 - GROUPING SETS
 	SELECT e.DEPTNO, e.JOB, SUM(SAL)
 	FROM EMP e
 	GROUP BY GROUPING SETS(e.DEPTNO, e.JOB);
-
 - GROUPING SETS like CUBE
 	SELECT e.DEPTNO, e.JOB, SUM(SAL)
 	FROM EMP e
@@ -217,17 +213,17 @@
 
 * Partition By
 - Example
-SELECT
-	*
-FROM
-(
 	SELECT
-		EMPNO, ENAME, DEPTNO, JOB, SAL, RANK() OVER(PARTITION BY DEPTNO ORDER BY SAL DESC) RANK
+		*
 	FROM
-		EMP
-)
-WHERE
-	RANK < 4;
+	(
+		SELECT
+			EMPNO, ENAME, DEPTNO, JOB, SAL, RANK() OVER(PARTITION BY DEPTNO ORDER BY SAL DESC) RANK
+		FROM
+			EMP
+	)
+	WHERE
+		RANK < 4;
 
 * Rank vs Dense_Rank vs Row_Number
 - Example
