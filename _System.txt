@@ -1,24 +1,4 @@
-* Base(Monthly Review)
-- Concept
-	Object Oriented Programming
-	Synchronous vs Asynchronous / Blocking vs Non-Blocking
-- Code
-	Structure
-		SQL
-	Procedure
-		Algorithms
-			Cracking the Coding Interview(6E)
-				Data Structure(Array, List, Linked List, Stack & Queue, Tree, Graph)
-				Bit Manipulation
-				Math & Logic Puzzle
-				Object Oriented Programming
-				Recursion & Dynamic Programming
-				Scalability
-				Sort & Search
-				Thread & Lock
-		Design Patterns
-
-* Certification
+* Certification(Monthly Review)
 - Engineer Information Processing
 - Engineer Information Security
 - SQLP
@@ -26,13 +6,20 @@
 - ADP
 - Oracle...
 
-* Portfolio
-- Responsive Web Full Stack
+* SQL
+- ?
+
+* Responsive Web Full Stack
+- Design Patterns
+- Spring Framework
 	Springless
 	SpringMVC
 	SpringBoot
 
 * Reference
+- Concept
+	Object Oriented Programming
+	Synchronous vs Asynchronous / Blocking vs Non-Blocking
 - Book Scan
 	Clean Code 클린 코드(로버트 C. 마틴 / 인사이트)
 	? SQL BOOSTER(유일환 / 디비안)
@@ -40,7 +27,6 @@
 	? 국가공인 SQLD 자격검정 핵심노트(조시형 / 디비안)
 
 * Issue
-- Job ID
 - 친절한 SQL 튜닝 : p.266~
 
 
