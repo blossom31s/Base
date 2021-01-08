@@ -6,10 +6,10 @@
 - // ADP
 - // Oracle...
 
-* Trend 1. SQL
+* SQL
 - ?
 
-* Trend 2. Web(Responsive Web Full Stack)
+* Web(Responsive Web Full Stack)
 - Design Patterns
 - Spring Framework
 	Springless
