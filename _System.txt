@@ -1,15 +1,15 @@
 * Certification(Monthly Review)
 - Engineer Information Processing
-- Engineer Information Security
+- // Engineer Information Security
 - SQLP
-- DAP
-- ADP
-- Oracle...
+- // DAP
+- // ADP
+- // Oracle...
 
-* SQL
+* Trend 1. SQL
 - ?
 
-* Responsive Web Full Stack
+* Trend 2. Web(Responsive Web Full Stack)
 - Design Patterns
 - Spring Framework
 	Springless
