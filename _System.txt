@@ -6,7 +6,7 @@
 - // ADP
 - // Oracle...
 
-* Year 2021 Project(Weekdaily 2 hour)
+* Year 2021 Project(Weekdaily 2 hours)
 - Engineer Information Security 취득
 - 친절한 SQL 튜닝(조시형 / 디비안) 10회독
 
