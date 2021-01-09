@@ -9,7 +9,7 @@
 * Project
 - Algorithms
 - Design Patterns
-- Responsive Web Full Stack
+- Responsive Web
 	Springless
 	SpringMVC
 	SpringBoot
@@ -26,6 +26,7 @@
 
 * Issue
 - 친절한 SQL 튜닝 : p.266~
+- 2021년 1월 9일 : SQLP 과목3
 
 
 
