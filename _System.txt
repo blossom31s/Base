@@ -6,7 +6,10 @@
 - // ADP
 - // Oracle...
 
-* Project
+* Year 2021 Project(Weekdaily 2 hour)
+- 친절한 SQL 튜닝(조시형 / 디비안) 10회독
+
+* Portfolio
 - Algorithms
 - Design Patterns
 - Responsive Web
@@ -25,8 +28,7 @@
 	? 국가공인 SQLD 자격검정 핵심노트(조시형 / 디비안)
 
 * Issue
-- 친절한 SQL 튜닝 : p.266~
-- 2021년 1월 9일 : SQLP 과목3
+- 2021년 1월 9일(토) : 친절한 SQL 튜닝 p.266~
 
 
 
