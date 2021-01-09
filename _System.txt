@@ -1,14 +1,14 @@
 * Certification(Monthly Review)
 - Engineer Information Processing
 - // Engineer Information Security
-- SQLP
+- // SQLP
 - // DAP
 - // ADP
 - // Oracle...
 
 * Year 2021 Project(Weekdaily 2 hour)
+- Engineer Information Security 취득
 - 친절한 SQL 튜닝(조시형 / 디비안) 10회독
-- SQLP 취득
 
 * Portfolio
 - Algorithms
