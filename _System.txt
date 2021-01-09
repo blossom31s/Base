@@ -8,7 +8,7 @@
 
 * Year 2021 Project(Weekdaily 2 hours)
 - Engineer Information Security 취득
-- 친절한 SQL 튜닝(조시형 / 디비안) 10회독
+- 친절한 SQL 튜닝(조시형 / 디비안) 10회독 : 0 / 10
 
 * Portfolio
 - Algorithms
