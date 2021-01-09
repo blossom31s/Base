@@ -23,6 +23,8 @@
 	Object Oriented Programming
 	Synchronous vs Asynchronous / Blocking vs Non-Blocking
 - Book Scan
+	Engineer Information Processing
+	Engineer Information Security
 	Clean Code 클린 코드(로버트 C. 마틴 / 인사이트)
 	? SQL BOOSTER(유일환 / 디비안)
 	? 불친절한 SQL 프로그래밍(정희락 / 디비안)
