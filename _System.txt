@@ -1,6 +1,6 @@
-* Certification(Monthly Review)
-- Engineer Information Processing
-- // Engineer Information Security
+* Certification(Yearly Review)
+- [2021:x] Engineer Information Processing
+- // [2021:x] Engineer Information Security
 - // SQLP
 - // DAP
 - // ADP
