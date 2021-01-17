@@ -9,7 +9,7 @@
 * Project
 - GitHub Year 2021 Daily Commit
 - Engineer Information Security 취득
-- 친절한 SQL 튜닝(조시형 / 디비안) 최소 10회독(×0)
+- 친절한 SQL 튜닝(조시형 / 디비안) 최소 10회독(×1)
 
 * Portfolio
 - Algorithms
@@ -34,7 +34,7 @@
 * Issue
 - 2021년 3월 즈음에 EIP&EIS 신간(2021년) 확인 후 북스캔
 - 2021년 1월 17일(일)
-	친절한 SQL 튜닝 ~ 부록 SQL 분석 도구
+	친절한 SQL 튜닝 ~ 부록. SQL 분석 도구
 
 
 
