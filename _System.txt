@@ -23,6 +23,8 @@
 - Concept
 	Object Oriented Programming
 	Synchronous vs Asynchronous / Blocking vs Non-Blocking
+- Tool
+	Oracle ERP FCM
 - Book Scan
 	Engineer Information Processing
 	Engineer Information Security
