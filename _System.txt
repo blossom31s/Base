@@ -25,6 +25,11 @@
 	Synchronous vs Asynchronous / Blocking vs Non-Blocking
 - Tool
 	Oracle ERP FCM
+
+* Issue
+- 2021년 1월 22일(금)
+	친절한 SQL 튜닝 ~ 3.1 테이블 액세스 최소화
+- 2021년 3월 즈음에 EIP&EIS 신간(2021년) 확인 후 북스캔
 - Book Scan
 	Engineer Information Processing
 	Engineer Information Security
@@ -32,11 +37,6 @@
 	? SQL BOOSTER(유일환 / 디비안)
 	? 불친절한 SQL 프로그래밍(정희락 / 디비안)
 	? 국가공인 SQLD 자격검정 핵심노트(조시형 / 디비안)
-
-* Issue
-- 2021년 3월 즈음에 EIP&EIS 신간(2021년) 확인 후 북스캔
-- 2021년 1월 21일(목)
-	친절한 SQL 튜닝 ~ 2.3 인덱스 확장기능 사용법
 
 
 
