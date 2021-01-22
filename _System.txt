@@ -10,6 +10,8 @@
 - GitHub Year 2021 Daily Commit
 - Engineer Information Security 취득
 - 친절한 SQL 튜닝(조시형 / 디비안) 최소 10회독(×1)
+- // Algorithms
+- // Design Patterns
 
 * Portfolio
 - Algorithms
