@@ -29,10 +29,8 @@
 * Issue
 - 2021년 1월 22일(금)
 	친절한 SQL 튜닝 ~ 3.1 테이블 액세스 최소화
-- 2021년 3월 즈음에 EIP&EIS 신간(2021년) 확인 후 북스캔
 - Book Scan
-	Engineer Information Processing
-	Engineer Information Security
+	2021년 3월 즈음에 EIP&EIS 신간(2021년) 확인
 	Clean Code 클린 코드(로버트 C. 마틴 / 인사이트)
 	? SQL BOOSTER(유일환 / 디비안)
 	? 불친절한 SQL 프로그래밍(정희락 / 디비안)
