@@ -8,11 +8,7 @@
 
 * Project
 - GitHub Year 2021 Daily Commit
-- Engineer Information Security 취득
-- SQLP 취득
 - 친절한 SQL 튜닝(조시형 / 디비안) 최소 10회독(×1)
-- // Algorithms
-- // Design Patterns
 
 * Portfolio
 - Algorithms
@@ -38,7 +34,6 @@
 	? SQL BOOSTER(유일환 / 디비안)
 	? 불친절한 SQL 프로그래밍(정희락 / 디비안)
 	? 국가공인 SQLD 자격검정 핵심노트(조시형 / 디비안)
-- 블로그 포스팅
 
 
 
