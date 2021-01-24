@@ -7,7 +7,8 @@
 - // Oracle...
 
 * Project
-- // 친절한 SQL 튜닝(조시형 / 디비안) 최소 10회독(×1)
+- GitHub Year 2021 Daily Commit
+- 친절한 SQL 튜닝(조시형 / 디비안) 최소 10회독(×1)
 
 * Portfolio
 - Algorithms
@@ -25,8 +26,8 @@
 	Oracle ERP FCM
 
 * Issue
-- 2021년 1월 23일(토)
-	친절한 SQL 튜닝 ~ 3.2 부분범위 처리 활용
+- 2021년 1월 24일(일)
+	친절한 SQL 튜닝 ~ 3.3 인덱스 스캔 효율화
 - Book Scan
 	2021년 3월 즈음에 EIP&EIS 신간(2021년) 확인
 	Clean Code 클린 코드(로버트 C. 마틴 / 인사이트)
