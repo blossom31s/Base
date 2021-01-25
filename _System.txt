@@ -26,8 +26,8 @@
 	Oracle ERP FCM
 
 * Issue
-- 2021년 1월 25일(월)
-	친절한 SQL 튜닝 ~ 3.4 인덱스 설계
+- 2021년 1월 26일(화)
+	친절한 SQL 튜닝 ~ 4.1 NL 조인
 - Book Scan
 	2021년 3월 즈음에 EIP&EIS 신간(2021년) 확인
 	Clean Code 클린 코드(로버트 C. 마틴 / 인사이트)
