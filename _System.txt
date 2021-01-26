@@ -1,7 +1,7 @@
 * Certification(Yearly Review)
 - [2021:x] Engineer Information Processing
 - // [2021:x] Engineer Information Security
-- // SQLP
+- // [2021:x] SQLP
 - // DAP
 - // ADP
 - // Oracle...
@@ -26,13 +26,15 @@
 	Oracle ERP FCM
 
 * Issue
-- 2021년 1월 26일(화)
-	친절한 SQL 튜닝 ~ 4.1 NL 조인
+- 2021년 1월 27일(수)
+	친절한 SQL 튜닝 ~ 4.2 소트 머지 조인
+- 공부진도 : SQLP > EIS > Algorithms > Design Patterns
 - Book Scan
 	2021년 3월 즈음에 EIP&EIS 신간(2021년) 확인
 	Clean Code 클린 코드(로버트 C. 마틴 / 인사이트)
-	? SQL BOOSTER(유일환 / 디비안)
+	? 오라클 성능 고도화 원리와 해법 1&2(조시형 / 디비안)
 	? 불친절한 SQL 프로그래밍(정희락 / 디비안)
+	? SQL BOOSTER(유일환 / 디비안)
 	? 국가공인 SQLD 자격검정 핵심노트(조시형 / 디비안)
 
 
