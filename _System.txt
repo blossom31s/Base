@@ -26,8 +26,8 @@
 	Oracle ERP FCM
 
 * Issue
-- 2021년 1월 27일(수)
-	친절한 SQL 튜닝 ~ 4.2 소트 머지 조인
+- 2021년 1월 28일(목)
+	친절한 SQL 튜닝 ~ 4.3 해시 조인
 - 공부진도 : SQLP > EIS > Algorithms > Design Patterns
 - Book Scan
 	2021년 3월 즈음에 EIP&EIS 신간(2021년) 확인
