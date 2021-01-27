@@ -1,7 +1,7 @@
 * Certification(Yearly Review)
 - [2021:x] Engineer Information Processing
-- // [2021:x] Engineer Information Security
-- // [2021:x] SQLP
+- // Engineer Information Security
+- // SQLP
 - // DAP
 - // ADP
 - // Oracle...
