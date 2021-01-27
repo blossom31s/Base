@@ -1,7 +1,7 @@
 * Base(Yearly Review)
-- Math
+- Mathematics
 	[2021:x] ?
-- IT(Certification)
+- Information Technology(Certification)
 	[2021:x] Engineer Information Processing
 	// Engineer Information Security
 	// SQLP
