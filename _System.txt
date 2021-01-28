@@ -1,25 +1,26 @@
-* Base(Yearly Review)
-- Mathematics
-	[2021:x] ?
-- Information Technology(Certification)
-	[2021:x] Engineer Information Processing
-	// Engineer Information Security
-	// SQLP
-	// DAP
-	// ADP
-	// Oracle...
+* Class(Yearly Review)
+- [2021:x] 고교수학(2015 개정 교육과정)
+	과목 : 수학, 수학 Ⅰ, 수학 Ⅱ / 미적분, 확률과 통계, 기하 / 경제수학, 실용수학
+	교재 : ?
+- 대학수학
+	과목 : 대수학, 기하학, 해석학, 확률통계, 이산수학
+	교재 : ?
 
-* Project
-- GitHub Year 2021 Daily Commit
-- 친절한 SQL 튜닝(조시형 / 디비안) 최소 10회독(×1)
-
-* Portfolio
-- Algorithms
-- Design Patterns
-- Responsive Web
-	Springless
-	SpringMVC
-	SpringBoot
+* Application
+- IT
+	Certification
+		Engineer Information Processing
+		// Engineer Information Security
+		// SQLP
+		// DAP
+		// ADP
+		// Oracle...
+	Algorithms
+	Design Patterns
+	Responsive Web
+		Springless
+		SpringMVC
+		SpringBoot
 
 * Reference
 - Concept
@@ -28,17 +29,19 @@
 - Tool
 	Oracle ERP FCM
 
-* Issue
-- 2021년 1월 28일(목)
-	친절한 SQL 튜닝 ~ 4.3 해시 조인
-- 공부진도 : SQLP > EIS > Algorithms > Design Patterns
+* Project
+- GitHub Year 2021 Daily Commit
+	친절한 SQL 튜닝(조시형 / 디비안) 최소 10회독(×1)
+- 2021년 1월 29일(금)
+	친절한 SQL 튜닝 ~ 4.4 서브쿼리 조인
 - Book Scan
 	2021년 3월 즈음에 EIP&EIS 신간(2021년) 확인
-	Clean Code 클린 코드(로버트 C. 마틴 / 인사이트)
-	? 오라클 성능 고도화 원리와 해법 1&2(조시형 / 디비안)
-	? 불친절한 SQL 프로그래밍(정희락 / 디비안)
-	? SQL BOOSTER(유일환 / 디비안)
-	? 국가공인 SQLD 자격검정 핵심노트(조시형 / 디비안)
+	보류
+		Clean Code 클린 코드(로버트 C. 마틴 / 인사이트)
+		? 오라클 성능 고도화 원리와 해법 1&2(조시형 / 디비안)
+		? 불친절한 SQL 프로그래밍(정희락 / 디비안)
+		? SQL BOOSTER(유일환 / 디비안)
+		? 국가공인 SQLD 자격검정 핵심노트(조시형 / 디비안)
 
 
 
