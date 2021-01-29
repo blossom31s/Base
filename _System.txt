@@ -29,7 +29,7 @@
 - Tool
 	Oracle ERP FCM
 
-* Project
+* Issue
 - GitHub Year 2021 Daily Commit
 	블랙라벨(2015) 수학 1&2, 미적분 1&2, 확률과 통계, 기하와 벡터
 	? SQLP
