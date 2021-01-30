@@ -10,11 +10,11 @@
 - IT
 	Certification
 		Engineer Information Processing
-		// Engineer Information Security
-		// SQLP
-		// DAP
-		// ADP
-		// Oracle...
+		Engineer Information Security
+		SQLP
+		DAP
+		ADP
+		Oracle...
 	Piece
 		Algorithms
 		Design Patterns
