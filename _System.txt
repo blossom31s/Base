@@ -1,6 +1,20 @@
-* Class(Yearly Review)
+* Quest(Dawn)
+
+연
+용
+
+- 현재
+	블랙라벨 고등(2015) : 수학1&2, 미적분1&확률과통계, 미적분2&기하와벡터
+- 예정
+	수학
+		블랙라벨 고등(2021) : 수학(상), 수학(하), 수학Ⅰ, 수학Ⅱ, 확률과 통계, 미적분, 기하
+		올림피아드
+		대학수학(카이스트 수학교재) : 해석학, 대수학, 기하학, 확률통계
+	IT
+		;
+
 - 수학(2021 : x)
-	[기초수학] 블랙라벨 고등(2015) : 수학1&2, 미적분1&확률과통계, 미적분2&기하와벡터
+	[기초] 블랙라벨 고등(2015) : 수학1&2, 미적분1&확률과통계, 미적분2&기하와벡터
 		+ 블랙라벨 고등(2021) : 수학(상), 수학(하), 수학Ⅰ, 수학Ⅱ, 확률과 통계, 미적분, 기하
 		+ 올림피아드?
 	? 카이스트 수학교재
@@ -8,9 +22,7 @@
 	[대수학] ?
 	[기하학] ?
 	[확률통계] ?
-
-* Application
-- IT
+- IT(2021 : x)
 	Certification
 		Engineer Information Processing
 		Engineer Information Security
@@ -18,13 +30,16 @@
 		DAP
 		ADP
 		Oracle...
-	Piece
+	Code
 		Algorithms
 		Design Patterns
-		Responsive Web
-			Springless
-			SpringMVC
-			SpringBoot
+
+* Application(Dawn)
+- IT
+	Responsive Web
+		Springless
+		SpringMVC
+		SpringBoot
 
 * Reference
 - Concept
@@ -35,7 +50,8 @@
 
 * Issue
 - GitHub Year 2021 Daily Commit
-	2021년 2월 26일(금) : 블랙라벨 고등(2015) 미적분1&확률과통계 ~비법12
+	오늘 : 2021년 2월 27일(토)
+		블랙라벨 고등(2015) 미적분1&확률과통계 ~비법13
 	예정
 		블랙라벨 고등(2015) : 수학1&2, 미적분1&확률과통계, 미적분2&기하와벡터
 		여상진 수리논술
