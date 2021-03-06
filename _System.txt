@@ -11,7 +11,7 @@
 	기하학 ?
 	확률통계 ?
 	+ 올림피아드
-- IT
+- IT(일 처리 느림, 자습 자료 부족)
 	Certification
 		Engineer Information Processing
 		Engineer Information Security
@@ -29,8 +29,8 @@
 
 * Issue
 - GitHub Year 2021 Daily Commit
-	오늘 : 2021년 3월 6일(토)
-		블랙라벨 고등수학(2015) 미적분2&기하와벡터 ~비법1
+	오늘 : 2021년 3월 7일(일)
+		블랙라벨 고등수학(2015) 미적분2&기하와벡터 ~비법2
 	예정
 		여상진 수리논술
 			[p.10] 수열의 극한
