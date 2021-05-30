@@ -1,16 +1,7 @@
-* Class(1H)
+* Class
+- [공식] : ?
 - 블랙라벨 2015 고등수학(×1) : 수학1&2, 미적분1&확률과통계, 미적분2&기하와벡터
-- PEET
-- ?
-	카포설 수학교재 ?
-	해석학 ?
-	대수학 ?
-	기하학 ?
-	확률통계 ?
-	+ 올림피아드
-
-* Application
-- IT(일 처리 느림, 자습 자료 부족)
+- IT
 	Certification
 		Engineer Information Processing
 		Engineer Information Security
@@ -25,6 +16,14 @@
 			Springless
 			SpringMVC
 			SpringBoot
+- ?
+	수학
+		카포설 수학교재
+		해석학
+		대수학
+		기하학
+		확률통계
+		+ 올림피아드
 
 * Reference
 	Book PDF
@@ -33,15 +32,15 @@
 
 * Issue
 - GitHub Year 2021 Daily Commit
-	오늘 : 2021년 5월 30일(일)
-		블랙라벨 2015 고등수학 : 미적분2&기하와벡터 ~비법21
+	오늘 : 2021년 5월 31일(월)
+		블랙라벨 2015 고등수학 : 미적분2&기하와벡터 ~비법22
 	예정
 		여상진 수리논술
 			[p.10] 수열의 극한
 				[p.20] Lecture 01 일반항이 주어진 수열의 극한
 				..
 			..
-		? SQLP
+		SQLP
 
 
 
