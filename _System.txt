@@ -1,21 +1,22 @@
 * Class
 - 공식 : ?
-- 블랙라벨 2015 고등수학(×2) : 수학1&2, 미적분1&확률과통계, 미적분2&기하와벡터
-- IT
-	Certification
-		Engineer Information Processing
-		Engineer Information Security
-		SQLP
-		DAP
-		ADP
-		Oracle...
-	Code
-		Algorithms
-		Design Patterns
-		Responsive Web
-			Springless
-			SpringMVC
-			SpringBoot
+- ?
+	블랙라벨 2015 고등수학(×2) : 수학1&2, 미적분1&확률과통계, 미적분2&기하와벡터
+	IT
+		Certification
+			Engineer Information Processing
+			Engineer Information Security
+			SQLP
+			DAP
+			ADP
+			Oracle...
+		Code
+			Algorithms
+			Design Patterns
+			Responsive Web
+				Springless
+				SpringMVC
+				SpringBoot
 - ?
 	수학
 		카포설 수학교재
@@ -32,8 +33,8 @@
 
 * Issue
 - GitHub Year 2021 Daily Commit
-	오늘 : 2021년 6월 6일(일)
-		블랙라벨 2015 고등수학 : 수학1&2 ~비법4
+	오늘 : 2021년 6월 7일(월)
+		블랙라벨 2015 고등수학 : 수학1&2 ~비법5
 	예정
 		여상진 수리논술
 			[p.10] 수열의 극한
