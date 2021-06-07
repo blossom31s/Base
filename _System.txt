@@ -1,30 +1,25 @@
-* Class
-- 공식 : ?
+* Class(1H)
+- 공식
+	해석, 통계, 기하, ..
+		블랙라벨 2015 고등수학(×2) : 수학1&2, 미적분1&확률과통계, 미적분2&기하와벡터
+
+* Application
+- IT
+	Certification
+		Engineer Information Processing
+		Engineer Information Security
+		SQLP
+		DAP
+		ADP
+		Oracle...
+	Code
+		Algorithms
+		Design Patterns
+		Responsive Web
+			Springless
+			SpringMVC
+			SpringBoot
 - ?
-	블랙라벨 2015 고등수학(×2) : 수학1&2, 미적분1&확률과통계, 미적분2&기하와벡터
-	IT
-		Certification
-			Engineer Information Processing
-			Engineer Information Security
-			SQLP
-			DAP
-			ADP
-			Oracle...
-		Code
-			Algorithms
-			Design Patterns
-			Responsive Web
-				Springless
-				SpringMVC
-				SpringBoot
-- ?
-	수학
-		카포설 수학교재
-		해석학
-		대수학
-		기하학
-		확률통계
-		+ 올림피아드
 
 * Reference
 - Book PDF
@@ -32,16 +27,14 @@
 	z-library : https://z-lib.org
 
 * Issue
-- GitHub Year 2021 Daily Commit
-	오늘 : 2021년 6월 7일(월)
-		블랙라벨 2015 고등수학 : 수학1&2 ~비법5
-	예정
-		여상진 수리논술
-			[p.10] 수열의 극한
-				[p.20] Lecture 01 일반항이 주어진 수열의 극한
-				..
-			..
-		SQLP
+- GitHub Year 2021 Daily Commit : 2021년 6월 8일(화)
+	블랙라벨 2015 고등수학 : 수학1&2 ~비법6
+- 카포설 수학교재 조사
+	해석학
+	대수학
+	기하학
+	확률통계
+	+ 올림피아드
 
 
 
