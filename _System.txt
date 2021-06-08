@@ -5,20 +5,11 @@
 
 * Application
 - IT
-	Certification
-		Engineer Information Processing
-		Engineer Information Security
-		SQLP
-		DAP
-		ADP
-		Oracle...
+	Certification : EIP, EIS, SQLP, DAP, ADP, Oracle, ..
 	Code
 		Algorithms
 		Design Patterns
-		Responsive Web
-			Springless
-			SpringMVC
-			SpringBoot
+		Responsive Web(Springless / SpringMVC / SpringBoot)
 - ?
 
 * Reference
@@ -27,7 +18,8 @@
 	z-library : https://z-lib.org
 
 * Issue
-- GitHub Year 2021 Daily Commit : 2021년 6월 8일(화)
+- GitHub Year 2021 Daily Commit : 2021년 6월 9일(수)
+	공식
 	블랙라벨 2015 고등수학 : 수학1&2 ~비법6
 - 카포설 수학교재 조사
 	해석학
