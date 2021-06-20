@@ -18,7 +18,7 @@
 	z-library : https://z-lib.org
 
 * Issue
-- GitHub Year 2021 Daily Commit : 2021년 6월 20일(일)
+- GitHub Year 2021 Daily Commit : 2021년 6월 21일(월)
 	공식
 	블랙라벨 2015 고등수학 : 수학1&2 ~비법8
 - 카포설 수학교재 조사
