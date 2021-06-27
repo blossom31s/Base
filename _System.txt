@@ -18,7 +18,7 @@
 	z-library : https://z-lib.org
 
 * Issue
-- GitHub Year 2021 Daily Commit : 2021년 6월 26일(토)
+- GitHub Year 2021 Daily Commit : 2021년 6월 27일(일)
 	공식
 	블랙라벨 2015 고등수학 : 수학1&2 ~비법8
 - 도서 조사
@@ -58,6 +58,10 @@
 	약학정보원 : https://www.health.kr
 	의약품 안전나라 : https://nedrug.mfds.go.kr/bbs/18/37/
 	응답하라 약대(다음 카페) : https://cafe467.daum.net/_c21_/home?grpid=1RPvh
+- 관련분야
+	바이오
+	에너지
+	화장품
 
 * PEET 숙달
 - 진도 : 화학 > 유기 > 생물 > 물리 > 토익(해커스12회×10 + 타 도서)
