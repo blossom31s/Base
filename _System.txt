@@ -18,7 +18,7 @@
 	z-library : https://z-lib.org
 
 * Issue
-- GitHub Year 2021 Daily Commit : 2021년 6월 28일(월)
+- GitHub Year 2021 Daily Commit : 2021년 6월 29일(화)
 	공식
 	블랙라벨 2015 고등수학 : 수학1&2 ~비법8
 - 도서 조사
@@ -608,7 +608,7 @@
 			제거 : ΔSº > 0
 		{270} [th270_ch12_E2E1]
 		{272} [th272_ch12_reagent]
-		{272} 3ºRX vs 1ºRX
+		{272} 3º RX vs 1º RX
 			일반 염기 : E2(Zaitsev) / SN2
 			bulky base : E2(Hofmann) / E2
 			DBU, DBN : E2(Zaitsev) / E2
@@ -621,13 +621,26 @@
 			3, 4치환 알켄 E, Z 생성 가능 시 "안티 준평면" 전이상태 필수 고려
 		{278} [th278_ch12_E2]
 		E2 생성물 우선순위 : 안티 준평면 > 신 준평면
-		{279} major : Zaitsev / minor : hofmann
+		{279} major : Zaitsev / minor : Hofmann
 		{280} [th280_ch12_cyclohexane]
 		{281} [th281_ch12_speed]
+		{282} [th282_ch12_deutriumIsotopeEffect]
+		{283} [th283_ch12_E1]
+		{283} E1의 특징
+			1) 다단계 과정
+			2) 1차 반응속도식 : V = k[RX]
+			3) 열역학적 반응(가역 반응)
+			4) 가용매 분해의 일종
+		{285} [th285_ch12_E1]
+		{285} [th285_ch12_rearrangement]
+		{286} [th286_ch12_E1]
+		{287} 이탈기(LG)
+			이탈 후 안정할수록 좋은 LG,
+			이탈 후 약염기일수록 좋은 LG
 
 
 
-	13-1강~ 30:00
+	13-2강~
 
 
 
