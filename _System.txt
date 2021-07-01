@@ -1,5 +1,5 @@
 * Class(1H)
-- 태 : 삼각형오심, 정다면체, 입방정계(밀집) + 이성질체
+- 태 : 삼각형오심, 정다면체, 입방&밀집 + 이성질체
 - 세 : 유무지로삼 + 공업수학(라플라스, 푸리에)
 - 율 : 순열&조합, 이항정리 + 통계(ML)
 
@@ -18,7 +18,7 @@
 	z-library : https://z-lib.org
 
 * Issue
-- GitHub Year 2021 Daily Commit : 2021년 7월 1일(목)
+- GitHub Year 2021 Daily Commit : 2021년 7월 2일(금)
 	[Class]
 	약사
 - 북스캔
