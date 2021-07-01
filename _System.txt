@@ -20,7 +20,7 @@
 * Issue
 - GitHub Year 2021 Daily Commit : 2021년 7월 1일(목)
 	[Class]
-	약사
+	약사 : 화공기사
 - 북스캔
 	맥머리의 유기화학(9판)
 	엠디엔피
