@@ -1,6 +1,6 @@
 * Class(1H)
 - 태 : 삼각형오심, 정다면체, 입방&밀집, 이성질체
-- 세 : 유무지로삼 + 공업수학(라플라스, 푸리에)
+- 세 : 초월함수 + 공업수학(라플라스, 푸리에)
 - 율 : 순열&조합, 이항정리 + 통계(ML)
 
 * Application
@@ -16,8 +16,8 @@
 	z-library : https://z-lib.org
 
 * Issue
-- GitHub Year 2021 Daily Commit : 2021년 7월 4일(일)
-	[Class]
+- GitHub Year 2021 Daily Commit : 2021년 7월 5일(월)
+	Class
 	약사
 - 북스캔
 	맥머리의 유기화학(9판)
@@ -31,8 +31,6 @@
 			[2022] LJ Biology 기출N실전 part.1 세포생물학
 			[2022] LJ Biology 기출N실전 part.2 분자생물학
 			[2022] LJ Biology 기출N실전 part.3 동물생리학
-- 도서 조사
-	?
 
 
 
