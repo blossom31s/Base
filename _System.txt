@@ -16,7 +16,7 @@
 	z-library : https://z-lib.org
 
 * Issue
-- GitHub Year 2021 Daily Commit : 2021년 7월 5일(월)
+- GitHub Year 2021 Daily Commit : 2021년 7월 6일(화)
 	Class
 	약사
 - 북스캔
