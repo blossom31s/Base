@@ -16,7 +16,7 @@
 	z-library : https://z-lib.org
 
 * Issue
-- GitHub Year 2021 Daily Commit : 2021년 7월 6일(화)
+- GitHub Year 2021 Daily Commit : 2021년 7월 7일(수)
 	Class
 	약사
 - 북스캔
@@ -28,6 +28,7 @@
 			[2022] LJ Biology 핵심생물 part.3
 			[2022] LJ Biology 기출N실전 part.4 식생분진
 		?
+			[2022] 유기화학 크리티컬 포인트(리뷰북 포함)
 			[2022] LJ Biology 기출N실전 part.1 세포생물학
 			[2022] LJ Biology 기출N실전 part.2 분자생물학
 			[2022] LJ Biology 기출N실전 part.3 동물생리학
@@ -44,6 +45,7 @@
 
 * 총괄
 - PEET
+	PEET 단원
 	PEET 숙달
 	PEET 수업
 	PEET 모집요강(선수과목)
@@ -58,6 +60,19 @@
 	약학정보원 : https://www.health.kr
 	의약품 안전나라 : https://nedrug.mfds.go.kr/bbs/18/37/
 	응답하라 약대(다음 카페) : https://cafe467.daum.net/_c21_/home?grpid=1RPvh
+
+* PEET 단원
+	화학
+		필수이론 : 10
+		필수이론연습 : 10
+		크리티컬포인트 : 10
+	유기
+		?
+	생물
+		?
+	물리
+		필수이론 : 6
+		크리티컬포인트 : 28
 
 * PEET 숙달
 - 화학(월)
@@ -125,7 +140,7 @@
 				{230} 예제 6-29 ~ 35
 		7. 물리 평형
 			1) 상평형
-				{241} 예제 7-1 ~ 6
+				{241} 예제 7-1 ~ 5
 			2) 용액
 				{258} 예제 7-7 ~ 9
 				{262} 예제 7-10 ~ 11
