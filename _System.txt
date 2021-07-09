@@ -16,7 +16,7 @@
 	z-library : https://z-lib.org
 
 * Issue
-- GitHub Year 2021 Daily Commit : 2021년 7월 9일(금)
+- GitHub Year 2021 Daily Commit : 2021년 7월 10일(토)
 	Class
 	약사
 - 북스캔
@@ -50,10 +50,6 @@
 	PEET 수업
 	PEET 모집요강(선수과목)
 - 자격증 : ECI(화공기사), EB(바이오화학제품제조기사), EEM(화약류제조기사), ECA(화학분석기사)
-- 활용
-	바이오
-	에너지
-	미용
 - 커뮤니티
 	대한약사회
 	약사공론
